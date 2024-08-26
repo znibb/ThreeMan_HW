@@ -1,937 +1,2884 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 3096edb2-ae40-4a71-9cf3-3cb1be9573d1)
-
-  (paper "A4")
-
-  (title_block
-    (title "Three Man")
-    (rev "A1")
-  )
-
-  (lib_symbols
-    (symbol "Battery_Charger:MCP73831T-2ACI/OT" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 0 1.27 0) (do_not_autoplace)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "MCP73831T-2ACI/OT" (at 0 -21.59 0) (do_not_autoplace)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "https://github.com/znibb/KiCad-Libraries/blob/main/Datasheets/Battery_Chargers/MCP73831-DS20001984H.pdf" (at 0 7.62 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Manufacturer" "Microchip Technology" (at 0 10.16 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DK_PartNo" "MCP73831T-2ACI/OTCT-ND" (at 0 12.7 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DK_Price1" "" (at 0 15.24 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DK_Price10" "" (at 0 17.78 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_keywords" "battery charger lithium" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SOT?23*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "MCP73831T-2ACI/OT_0_1"
-        (rectangle (start 0 0) (end 15.24 -20.32)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "MCP73831T-2ACI/OT_1_1"
-        (pin output line (at -2.54 -10.16 0) (length 2.54)
-          (name "STAT" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 17.78 -17.78 180) (length 2.54)
-          (name "V_{SS}" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_out line (at 17.78 -2.54 180) (length 2.54)
-          (name "V_{BAT}" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -2.54 -2.54 0) (length 2.54)
-          (name "V_{DD}" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 17.78 -10.16 180) (length 2.54)
-          (name "PROG" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Connector:Conn_TagConnect_TC2030_ICSP" (in_bom no) (on_board yes)
-      (property "Reference" "J" (at 0 1.27 0) (do_not_autoplace)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "Conn_TagConnect_TC2030_ICSP" (at 0 -16.51 0) (do_not_autoplace)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "https://github.com/znibb/KiCad-Libraries/blob/main/Datasheet/Connector/TC2030-CTX_1-Datasheet.pdf" (at 0 7.62 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Drawing" "https://github.com/znibb/KiCad-Libraries/blob/main/Datasheet/Connector/TC2030-IDC-FP-Drawing.pdf" (at 0 10.16 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_keywords" "Debug Connector ICSP" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Tag-Connect ICSP connector, 6 pin, RetentionLegs" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "*TC2030*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_TagConnect_TC2030_ICSP_0_1"
-        (rectangle (start 0 0) (end 12.7 -15.24)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "Conn_TagConnect_TC2030_ICSP_1_0"
-        (pin output line (at 15.24 -10.16 180) (length 2.54)
-          (name "MISO" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-          (alternate "TMS" bidirectional line)
-        )
-        (pin power_in line (at -2.54 -2.54 0) (length 2.54)
-          (name "VCC" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 15.24 -7.62 180) (length 2.54)
-          (name "SCK" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-          (alternate "TCK" output line)
-        )
-        (pin input line (at 15.24 -12.7 180) (length 2.54)
-          (name "MOSI" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-          (alternate "TDO" input line)
-        )
-        (pin open_collector line (at 15.24 -2.54 180) (length 2.54)
-          (name "~{RESET}" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -2.54 -12.7 0) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Connector_USB:USB4135-GF-A" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0.635 1.27 0) (do_not_autoplace)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "USB4135-GF-A" (at 0 -24.13 0) (do_not_autoplace)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "Connector_USB:USB4135-GF-A" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "https://github.com/znibb/KiCad-Libraries/blob/main/Datasheet/Connector/USB4135-GF-A-Product_Drawing.pdf" (at 0 7.62 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Manufacturer" "GCT" (at 0 10.16 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DK_PartNo" "2073-USB4135-GF-A-ACT-ND" (at 0 12.7 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DK_Price1" "" (at 0 15.24 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DK_Price10" "" (at 0 17.78 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_keywords" "usb universal serial bus type-C power-only charging-only 6P 6C" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "USB C REC GF RA 6P SMT & SMT SHE" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "USB*C*Receptacle*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "USB4135-GF-A_0_1"
-        (polyline
-          (pts
-            (xy 1.27 -15.24)
-            (xy 1.27 -7.62)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 5.08 -7.62)
-            (xy 5.08 -15.24)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 -17.145)
-            (xy 10.16 -6.985)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 -14.605)
-            (xy 7.62 -12.065)
-            (xy 7.62 -10.795)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 -13.335)
-            (xy 12.7 -10.795)
-            (xy 12.7 -9.525)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 8.89 -6.985)
-            (xy 10.16 -4.445)
-            (xy 11.43 -6.985)
-            (xy 8.89 -6.985)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start 0 0) (end 20.32 -22.86)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (arc (start 1.27 -15.2483) (mid 3.175 -17.145) (end 5.08 -15.2483)
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (arc (start 2.54 -15.2427) (mid 3.175 -15.875) (end 3.81 -15.2427)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (arc (start 2.54 -15.2427) (mid 3.175 -15.875) (end 3.81 -15.2427)
-          (stroke (width 0.254) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start 2.54 -7.62) (end 3.81 -15.24)
-          (stroke (width 0.254) (type default))
-          (fill (type outline))
-        )
-        (arc (start 3.81 -7.6173) (mid 3.175 -6.985) (end 2.54 -7.6173)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (arc (start 3.81 -7.6173) (mid 3.175 -6.985) (end 2.54 -7.6173)
-          (stroke (width 0.254) (type default))
-          (fill (type outline))
-        )
-        (arc (start 5.08 -7.6117) (mid 3.175 -5.715) (end 1.27 -7.6117)
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (circle (center 7.62 -10.16) (radius 0.635)
-          (stroke (width 0.254) (type default))
-          (fill (type outline))
-        )
-        (circle (center 10.16 -17.145) (radius 1.27)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start 12.065 -8.255) (end 13.335 -9.525)
-          (stroke (width 0.254) (type default))
-          (fill (type outline))
-        )
-      )
-      (symbol "USB4135-GF-A_1_1"
-        (pin passive line (at 25.4 -17.78 180) (length 5.08)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "A12" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 25.4 -7.62 180) (length 5.08)
-          (name "CC1" (effects (font (size 1.27 1.27))))
-          (number "A5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 25.4 -2.54 180) (length 5.08)
-          (name "VBUS" (effects (font (size 1.27 1.27))))
-          (number "A9" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 25.4 -17.78 180) (length 5.08) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "B12" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 25.4 -10.16 180) (length 5.08)
-          (name "CC2" (effects (font (size 1.27 1.27))))
-          (number "B5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 25.4 -2.54 180) (length 5.08) hide
-          (name "VBUS" (effects (font (size 1.27 1.27))))
-          (number "B9" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 25.4 -20.32 180) (length 5.08)
-          (name "SHIELD" (effects (font (size 1.27 1.27))))
-          (number "S1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Interface_ShiftRegister:74HC595PW,118" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 0 1.27 0) (do_not_autoplace)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "74HC595" (at 0 -31.75 0) (do_not_autoplace)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" (at 0 7.62 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "https://github.com/znibb/KiCad-Libraries/blob/main/Datasheet/Interface_ShiftRegister/74HC595-Datasheet.pdf" (at 0 10.16 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Manufacturer" "Nexperia USA Inc." (at 0 12.7 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DK_PartNo" "1727-3068-1-ND" (at 0 15.24 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DK_Price1" "" (at 0 17.78 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DK_Price10" "" (at 0 20.32 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_keywords" "HCMOS SR 3State" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "8-bit serial in/out Shift Register 3-State Outputs" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm* SOIC*5.3x10.2mm*P1.27mm* SOIC*7.5x10.3mm*P1.27mm*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "74HC595PW,118_1_0"
-        (pin tri_state line (at 17.78 -5.08 180) (length 2.54)
-          (name "Q1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -2.54 -7.62 0) (length 2.54)
-          (name "~{MR}" (effects (font (size 1.27 1.27))))
-          (number "10" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -2.54 -15.24 0) (length 2.54)
-          (name "SHCLK" (effects (font (size 1.27 1.27))))
-          (number "11" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -2.54 -17.78 0) (length 2.54)
-          (name "STCLK" (effects (font (size 1.27 1.27))))
-          (number "12" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -2.54 -22.86 0) (length 2.54)
-          (name "~{OE}" (effects (font (size 1.27 1.27))))
-          (number "13" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -2.54 -12.7 0) (length 2.54)
-          (name "DATA" (effects (font (size 1.27 1.27))))
-          (number "14" (effects (font (size 1.27 1.27))))
-        )
-        (pin tri_state line (at 17.78 -2.54 180) (length 2.54)
-          (name "Q0" (effects (font (size 1.27 1.27))))
-          (number "15" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -2.54 -2.54 0) (length 2.54)
-          (name "VCC" (effects (font (size 1.27 1.27))))
-          (number "16" (effects (font (size 1.27 1.27))))
-        )
-        (pin tri_state line (at 17.78 -7.62 180) (length 2.54)
-          (name "Q2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin tri_state line (at 17.78 -10.16 180) (length 2.54)
-          (name "Q3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin tri_state line (at 17.78 -12.7 180) (length 2.54)
-          (name "Q4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin tri_state line (at 17.78 -15.24 180) (length 2.54)
-          (name "Q5" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin tri_state line (at 17.78 -17.78 180) (length 2.54)
-          (name "Q6" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin tri_state line (at 17.78 -20.32 180) (length 2.54)
-          (name "Q7" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -2.54 -27.94 0) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 17.78 -27.94 180) (length 2.54)
-          (name "Q7S" (effects (font (size 1.27 1.27))))
-          (number "9" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "74HC595PW,118_1_1"
-        (rectangle (start 0 0) (end 15.24 -30.48)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-      )
-    )
-    (symbol "MCU_Microchip_ATtiny:ATTINY85-20SUR" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 0 1.27 0) (do_not_autoplace)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "ATTINY85-20SUR" (at 0 -19.05 0) (do_not_autoplace)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm" (at 0 7.62 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "https://github.com/znibb/KiCad-Libraries/blob/main/Datasheet/MCU_Microchip_ATtiny/ATtiny25-45-85-Datasheet.pdf" (at 0 10.16 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Manufacturer" "Microchip Technology" (at 0 12.7 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DK_PartNo" "ATTINY85-20SURCT-ND" (at 0 15.24 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DK_Price1" "" (at 0 17.78 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DK_Price10" "" (at 0 20.32 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_keywords" "AVR 8bit Microcontroller tinyAVR" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, debugWIRE, SOIC-8W" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SOIC*5.3x5.3mm*P1.27mm*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "ATTINY85-20SUR_0_1"
-        (rectangle (start 0 0) (end 17.78 -17.78)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "ATTINY85-20SUR_1_1"
-        (pin bidirectional line (at 20.32 -15.24 180) (length 2.54)
-          (name "~{RESET}/PB5" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 20.32 -10.16 180) (length 2.54)
-          (name "XTAL1/PB3" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 20.32 -12.7 180) (length 2.54)
-          (name "XTAL2/PB4" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -2.54 -15.24 0) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 20.32 -2.54 180) (length 2.54)
-          (name "AREF/PB0" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 20.32 -5.08 180) (length 2.54)
-          (name "PB1" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 20.32 -7.62 180) (length 2.54)
-          (name "PB2" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -2.54 -2.54 0) (length 2.54)
-          (name "VCC" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Resistor:R_Generic" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 1.27 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "R" (at 1.27 -1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at -1.778 0 90)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Tolerance" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_keywords" "R res resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic Resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_Generic_1_1"
-        (rectangle (start -1.016 2.54) (end 1.016 -2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Switch:PTS645SL43SMTR92_LFS" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "SW" (at 1.27 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "Off-Mom" (at 0 -1.524 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645" (at 0 7.62 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "https://github.com/znibb/KiCad-Libraries/blob/main/Datasheet/Button_Switch_SMD/PTS645-Datasheet.pdf" (at 0 10.16 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Manufacturer" "C&K" (at 0 12.7 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DK_PartNo" "CKN10821CT-ND" (at 0 15.24 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DK_Price1" "" (at 0 17.78 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DK_Price10" "" (at 0 20.32 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_keywords" "switch normally-open pushbutton push-button momentary" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Push button switch, off-mom" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "PTS645SL43SMTR92_LFS_0_1"
-        (circle (center -2.032 0) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 1.27)
-            (xy 0 3.048)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 1.27)
-            (xy -2.54 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 2.032 0) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at -5.08 0 0) (length 2.54)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 0 180) (length 2.54)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 205.74 106.68) (diameter 0) (color 0 0 0 0)
-    (uuid c42f05c5-b206-46ea-8296-fbce4f0f5ac9)
-  )
-
-  (no_connect (at 203.2 109.22) (uuid bbd8dc80-bf39-4c8e-8722-a7e279a0c80f))
-
-  (wire (pts (xy 214.63 96.52) (xy 214.63 99.06))
-    (stroke (width 0) (type default))
-    (uuid 6a8d2a51-b2af-461d-8219-b52761eaecd7)
-  )
-  (wire (pts (xy 203.2 96.52) (xy 214.63 96.52))
-    (stroke (width 0) (type default))
-    (uuid 8d494442-ae76-460b-998c-44e6b2c153a0)
-  )
-  (wire (pts (xy 205.74 106.68) (xy 214.63 106.68))
-    (stroke (width 0) (type default))
-    (uuid a4ef493c-83f1-4092-badf-0d682834e8e1)
-  )
-  (wire (pts (xy 203.2 99.06) (xy 205.74 99.06))
-    (stroke (width 0) (type default))
-    (uuid c0395535-1100-4776-86a4-83d70f4fbada)
-  )
-  (wire (pts (xy 175.26 144.78) (xy 175.26 149.86))
-    (stroke (width 0) (type default))
-    (uuid c9d440d0-306c-4dcf-bef1-65b835ba2880)
-  )
-  (wire (pts (xy 175.26 124.46) (xy 175.26 129.54))
-    (stroke (width 0) (type default))
-    (uuid d10b409f-ffe0-459b-a4f7-d624c5b131ef)
-  )
-  (wire (pts (xy 203.2 106.68) (xy 205.74 106.68))
-    (stroke (width 0) (type default))
-    (uuid ea80f7c2-46f7-4567-bee5-ce478634d11d)
-  )
-
-  (symbol (lib_id "Connector_USB:USB4135-GF-A") (at 177.8 88.9 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2352efbb-f451-4737-802e-1c24970cc8bf)
-    (property "Reference" "J1" (at 178.435 87.63 0) (do_not_autoplace)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "USB4135-GF-A" (at 177.8 113.03 0) (do_not_autoplace)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_USB:USB4135-GF-A" (at 177.8 83.82 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://github.com/znibb/KiCad-Libraries/blob/main/Datasheet/Connector/USB4135-GF-A-Product_Drawing.pdf" (at 177.8 81.28 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer" "GCT" (at 177.8 78.74 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DK_PartNo" "2073-USB4135-GF-A-ACT-ND" (at 177.8 76.2 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DK_Price1" "" (at 177.8 73.66 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DK_Price10" "" (at 177.8 71.12 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "A12" (uuid 85aba08f-a125-4161-be5e-6acc4e3a21b4))
-    (pin "A5" (uuid 294c091e-06e6-4e41-b765-0e9d1486082d))
-    (pin "A9" (uuid c6a9c214-1ea0-4b36-a08f-0e91ec5d6a0f))
-    (pin "B12" (uuid d053108c-0c8c-471e-ac69-07c74c0d2e3e))
-    (pin "B5" (uuid 96c3936e-c5af-4051-864a-f1725b9dd4ed))
-    (pin "B9" (uuid 5d2f5aa7-11bb-4557-a9e9-1b89f17e94a5))
-    (pin "S1" (uuid b49e2f90-f3fe-4ee6-a098-d9b9b4652807))
-    (instances
-      (project "ThreeMan_HW"
-        (path "/3096edb2-ae40-4a71-9cf3-3cb1be9573d1"
-          (reference "J1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Battery_Charger:MCP73831T-2ACI/OT") (at 137.16 100.33 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5191109b-c5ac-43e8-9c5c-a5c14dcbae24)
-    (property "Reference" "U1" (at 137.16 99.06 0) (do_not_autoplace)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MCP73831T-2ACI/OT" (at 137.16 121.92 0) (do_not_autoplace)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 137.16 95.25 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://github.com/znibb/KiCad-Libraries/blob/main/Datasheets/Battery_Chargers/MCP73831-DS20001984H.pdf" (at 137.16 92.71 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer" "Microchip Technology" (at 137.16 90.17 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DK_PartNo" "MCP73831T-2ACI/OTCT-ND" (at 137.16 87.63 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DK_Price1" "" (at 137.16 85.09 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DK_Price10" "" (at 137.16 82.55 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid fcaa1bd7-aa1c-43df-930e-449d44c423a9))
-    (pin "2" (uuid d882bd24-ca81-4f31-859a-24d1c7c4245d))
-    (pin "3" (uuid 0d32add3-a2ba-416d-86e0-731c2b15b6cd))
-    (pin "4" (uuid daa3478d-6785-4652-b33a-62196b039e45))
-    (pin "5" (uuid abd89162-8262-4ef4-967c-2c4dade84baa))
-    (instances
-      (project "ThreeMan_HW"
-        (path "/3096edb2-ae40-4a71-9cf3-3cb1be9573d1"
-          (reference "U1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Resistor:R_Generic") (at 205.74 102.87 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 565a6aad-4605-4e48-9df7-788575612176)
-    (property "Reference" "R1" (at 208.28 102.235 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "5k1" (at 208.28 104.775 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 203.962 102.87 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "~" (at 205.74 102.87 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Tolerance" "5%" (at 205.74 102.87 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 21fb458d-4c17-4617-a1c1-5d25ad2697bf))
-    (pin "2" (uuid 8eda4e78-1ad8-4bca-b756-9e4704675a47))
-    (instances
-      (project "ThreeMan_HW"
-        (path "/3096edb2-ae40-4a71-9cf3-3cb1be9573d1"
-          (reference "R1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:PTS645SL43SMTR92_LFS") (at 241.3 76.2 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6f826ea5-970d-4f61-961d-6420a6dc51a7)
-    (property "Reference" "SW?" (at 245.11 72.39 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Off-Mom" (at 241.3 78.74 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645" (at 241.3 68.58 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://github.com/znibb/KiCad-Libraries/blob/main/Datasheet/Button_Switch_SMD/PTS645-Datasheet.pdf" (at 241.3 66.04 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer" "C&K" (at 241.3 63.5 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DK_PartNo" "CKN10821CT-ND" (at 241.3 60.96 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DK_Price1" "" (at 241.3 58.42 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DK_Price10" "" (at 241.3 55.88 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid d8428130-d930-407e-80de-765d405870fb))
-    (pin "2" (uuid 8235c892-4634-4c64-9c70-2657c8c2305d))
-    (instances
-      (project "ThreeMan_HW"
-        (path "/3096edb2-ae40-4a71-9cf3-3cb1be9573d1"
-          (reference "SW?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Interface_ShiftRegister:74HC595PW,118") (at 177.8 121.92 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 79d87aec-f9bd-4ff2-8ebf-d2db2c32e3d5)
-    (property "Reference" "U?" (at 177.8 120.65 0) (do_not_autoplace)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "74HC595" (at 177.8 153.67 0) (do_not_autoplace)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" (at 177.8 114.3 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://github.com/znibb/KiCad-Libraries/blob/main/Datasheet/Interface_ShiftRegister/74HC595-Datasheet.pdf" (at 177.8 111.76 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer" "Nexperia USA Inc." (at 177.8 109.22 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DK_PartNo" "1727-3068-1-ND" (at 177.8 106.68 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DK_Price1" "" (at 177.8 104.14 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DK_Price10" "" (at 177.8 101.6 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 270ff9a8-043a-44a6-856e-100126607ebe))
-    (pin "10" (uuid ceb21787-7974-451f-afcc-566d808c4bc8))
-    (pin "11" (uuid d7966148-5fe9-42d6-84fd-f08fc304cfba))
-    (pin "12" (uuid 66d30ead-f2c0-40fa-9086-4983af5424b7))
-    (pin "13" (uuid 8db0870a-b40a-46d9-864a-29fb3047bd71))
-    (pin "14" (uuid 16fd975a-b4eb-437c-be82-6936c7ee1ddc))
-    (pin "15" (uuid 8767e04a-65ff-4590-b396-474a4e424116))
-    (pin "16" (uuid 694c73a1-0fc1-48cd-a27a-3173d6aca3e6))
-    (pin "2" (uuid 0bff3fcb-a47a-448c-a4e3-bf5bc70470ca))
-    (pin "3" (uuid 1fe3671b-aa68-41f1-bb6d-21c1c73dc1d9))
-    (pin "4" (uuid 997a04ec-4eb4-4813-b79d-4533897fb133))
-    (pin "5" (uuid 77a3f4df-0515-42c5-ba33-d3ac77eea291))
-    (pin "6" (uuid 26067601-b62f-48ca-8f41-0ade13f978b9))
-    (pin "7" (uuid e0cdfd79-0b70-444a-9e20-232ae8f3d09a))
-    (pin "8" (uuid 5fb490b9-e93a-49d5-86ee-02b70c2675b3))
-    (pin "9" (uuid e9b096a1-9acf-47ce-9669-b082595873d2))
-    (instances
-      (project "ThreeMan_HW"
-        (path "/3096edb2-ae40-4a71-9cf3-3cb1be9573d1"
-          (reference "U?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "MCU_Microchip_ATtiny:ATTINY85-20SUR") (at 209.55 121.92 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b2f15bf0-712e-4bce-8210-d2be4c04e020)
-    (property "Reference" "U?" (at 209.55 120.65 0) (do_not_autoplace)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "ATTINY85-20SUR" (at 209.55 140.97 0) (do_not_autoplace)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm" (at 209.55 114.3 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://github.com/znibb/KiCad-Libraries/blob/main/Datasheet/MCU_Microchip_ATtiny/ATtiny25-45-85-Datasheet.pdf" (at 209.55 111.76 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer" "Microchip Technology" (at 209.55 109.22 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DK_PartNo" "ATTINY85-20SURCT-ND" (at 209.55 106.68 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DK_Price1" "" (at 209.55 104.14 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DK_Price10" "" (at 209.55 101.6 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid edef24c7-a757-4e2f-9fe5-88a04b82c609))
-    (pin "2" (uuid 28cff56e-02f1-41a6-aff3-7413c7893fad))
-    (pin "3" (uuid 35278ad3-d3fd-45e4-a419-cc87fe672de9))
-    (pin "4" (uuid a8fef1b8-4dc8-468b-9b1e-c6c5a3632436))
-    (pin "5" (uuid 3915ee5e-6a28-4709-a2b3-a67e0748a276))
-    (pin "6" (uuid a3b5cc0a-395f-41e1-8adc-f74286408a15))
-    (pin "7" (uuid 15eaf5df-446e-45c7-b20c-15384fe81d64))
-    (pin "8" (uuid 00691c02-cf0f-4b4f-b00a-96cc31832fe6))
-    (instances
-      (project "ThreeMan_HW"
-        (path "/3096edb2-ae40-4a71-9cf3-3cb1be9573d1"
-          (reference "U?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_TagConnect_TC2030_ICSP") (at 137.16 130.81 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c44ade56-e773-4870-a7b0-a0d9ad14ea14)
-    (property "Reference" "J?" (at 137.16 129.54 0) (do_not_autoplace)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Conn_TagConnect_TC2030_ICSP" (at 137.16 147.32 0) (do_not_autoplace)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical" (at 137.16 125.73 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://github.com/znibb/KiCad-Libraries/blob/main/Datasheet/Connector/TC2030-CTX_1-Datasheet.pdf" (at 137.16 123.19 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Drawing" "https://github.com/znibb/KiCad-Libraries/blob/main/Datasheet/Connector/TC2030-IDC-FP-Drawing.pdf" (at 137.16 120.65 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 241cf15c-f399-4e60-800f-6a7f73f782a5))
-    (pin "2" (uuid a9cdf5cb-da55-476a-9507-2a8e05f87543))
-    (pin "3" (uuid c6895438-8e90-414c-bef7-782464ffa820))
-    (pin "4" (uuid 11909ae5-f2ca-4f57-9207-cc2df61bd869))
-    (pin "5" (uuid 215b20b9-aa65-4e51-99e3-4165eed478bb))
-    (pin "6" (uuid 0198bbdd-f10e-4281-a13b-0d08b03031f2))
-    (instances
-      (project "ThreeMan_HW"
-        (path "/3096edb2-ae40-4a71-9cf3-3cb1be9573d1"
-          (reference "J?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Resistor:R_Generic") (at 214.63 102.87 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ea84466b-ed22-46cd-b26f-683563087500)
-    (property "Reference" "R2" (at 217.17 102.235 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "5k1" (at 217.17 104.775 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 212.852 102.87 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "~" (at 214.63 102.87 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Tolerance" "5%" (at 214.63 102.87 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 278bf681-eb25-4cad-9c68-0f52c81d0b63))
-    (pin "2" (uuid 43958955-6733-497b-8b34-bf2cd29a9087))
-    (instances
-      (project "ThreeMan_HW"
-        (path "/3096edb2-ae40-4a71-9cf3-3cb1be9573d1"
-          (reference "R2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3096edb2-ae40-4a71-9cf3-3cb1be9573d1")
+	(paper "A4")
+	(title_block
+		(title "Three Man")
+		(rev "A1")
+		(company "Zkylark Electronics")
+		(comment 1 "contact@zkylark.se")
+		(comment 2 "PoBe")
+	)
+	(lib_symbols
+		(symbol "Battery_Charger:MCP73831T-2ACI/OT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MCP73831T-2ACI/OT"
+				(at 0 -21.59 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://github.com/znibb/KiCad-Libraries/blob/main/Datasheets/Battery_Chargers/MCP73831-DS20001984H.pdf"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Microchip Technology"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_PartNo" "MCP73831T-2ACI/OTCT-ND"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Price1" ""
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Price10" ""
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "battery charger lithium"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP73831T-2ACI/OT_0_1"
+				(rectangle
+					(start 0 0)
+					(end 15.24 -20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MCP73831T-2ACI/OT_1_1"
+				(pin output line
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name "STAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -17.78 180)
+					(length 2.54)
+					(name "V_{SS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 17.78 -2.54 180)
+					(length 2.54)
+					(name "V_{BAT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "V_{DD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -10.16 180)
+					(length 2.54)
+					(name "PROG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_TagConnect_TC2030_ICSP"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Conn_TagConnect_TC2030_ICSP"
+				(at 0 -16.51 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://github.com/znibb/KiCad-Libraries/blob/main/Datasheet/Connector/TC2030-CTX_1-Datasheet.pdf"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tag-Connect ICSP connector, 6 pin, RetentionLegs"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Drawing" "https://github.com/znibb/KiCad-Libraries/blob/main/Datasheet/Connector/TC2030-IDC-FP-Drawing.pdf"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Debug Connector ICSP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TC2030*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_TagConnect_TC2030_ICSP_0_1"
+				(rectangle
+					(start 0 0)
+					(end 12.7 -15.24)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Conn_TagConnect_TC2030_ICSP_1_0"
+				(pin output line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TMS" bidirectional line)
+				)
+				(pin power_in line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TCK" output line)
+				)
+				(pin input line
+					(at 15.24 -12.7 180)
+					(length 2.54)
+					(name "MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TDO" input line)
+				)
+				(pin open_collector line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -12.7 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_USB:USB4135-GF-A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.635 1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "USB4135-GF-A"
+				(at 0 -24.13 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Connector_USB:USB4135-GF-A"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://github.com/znibb/KiCad-Libraries/blob/main/Datasheet/Connector/USB4135-GF-A-Product_Drawing.pdf"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB C REC GF RA 6P SMT & SMT SHE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "GCT"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_PartNo" "2073-USB4135-GF-A-ACT-ND"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Price1" ""
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Price10" ""
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "usb universal serial bus type-C power-only charging-only 6P 6C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "USB*C*Receptacle*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB4135-GF-A_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -15.24) (xy 1.27 -7.62)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy 5.08 -15.24)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -17.145) (xy 10.16 -6.985)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -14.605) (xy 7.62 -12.065) (xy 7.62 -10.795)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -13.335) (xy 12.7 -10.795) (xy 12.7 -9.525)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -6.985) (xy 10.16 -4.445) (xy 11.43 -6.985) (xy 8.89 -6.985)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0 0)
+					(end 20.32 -22.86)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 1.27 -15.2483)
+					(mid 3.175 -17.145)
+					(end 5.08 -15.2483)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -15.2427)
+					(mid 3.175 -15.875)
+					(end 3.81 -15.2427)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -15.2427)
+					(mid 3.175 -15.875)
+					(end 3.81 -15.2427)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.54 -7.62)
+					(end 3.81 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 3.81 -7.6173)
+					(mid 3.175 -6.985)
+					(end 2.54 -7.6173)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.81 -7.6173)
+					(mid 3.175 -6.985)
+					(end 2.54 -7.6173)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 5.08 -7.6117)
+					(mid 3.175 -5.715)
+					(end 1.27 -7.6117)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -10.16)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 10.16 -17.145)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 12.065 -8.255)
+					(end 13.335 -9.525)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "USB4135-GF-A_1_1"
+				(pin passive line
+					(at 25.4 -17.78 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -17.78 180)
+					(length 5.08) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -10.16 180)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08) hide
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -20.32 180)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Interface_ShiftRegister:74HC595PW,118"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "74HC595"
+				(at 0 -31.75 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://github.com/znibb/KiCad-Libraries/blob/main/Datasheet/Interface_ShiftRegister/74HC595-Datasheet.pdf"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Nexperia USA Inc."
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_PartNo" "1727-3068-1-ND"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Price1" ""
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Price10" ""
+				(at 0 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "HCMOS SR 3State"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm* SOIC*5.3x10.2mm*P1.27mm* SOIC*7.5x10.3mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74HC595PW,118_1_0"
+				(pin tri_state line
+					(at 17.78 -5.08 180)
+					(length 2.54)
+					(name "Q1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "~{MR}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -15.24 0)
+					(length 2.54)
+					(name "SHCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -17.78 0)
+					(length 2.54)
+					(name "STCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -22.86 0)
+					(length 2.54)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -12.7 0)
+					(length 2.54)
+					(name "DATA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 17.78 -2.54 180)
+					(length 2.54)
+					(name "Q0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 17.78 -7.62 180)
+					(length 2.54)
+					(name "Q2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 17.78 -10.16 180)
+					(length 2.54)
+					(name "Q3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 17.78 -12.7 180)
+					(length 2.54)
+					(name "Q4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 17.78 -15.24 180)
+					(length 2.54)
+					(name "Q5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 17.78 -17.78 180)
+					(length 2.54)
+					(name "Q6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 17.78 -20.32 180)
+					(length 2.54)
+					(name "Q7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -27.94 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -27.94 180)
+					(length 2.54)
+					(name "Q7S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC595PW,118_1_1"
+				(rectangle
+					(start 0 0)
+					(end 15.24 -30.48)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "MCU_Microchip_ATtiny:ATTINY85-20SUR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ATTINY85-20SUR"
+				(at 0 -19.05 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://github.com/znibb/KiCad-Libraries/blob/main/Datasheet/MCU_Microchip_ATtiny/ATtiny25-45-85-Datasheet.pdf"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, debugWIRE, SOIC-8W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Microchip Technology"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_PartNo" "ATTINY85-20SURCT-ND"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Price1" ""
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Price10" ""
+				(at 0 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "AVR 8bit Microcontroller tinyAVR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*5.3x5.3mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ATTINY85-20SUR_0_1"
+				(rectangle
+					(start 0 0)
+					(end 17.78 -17.78)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "ATTINY85-20SUR_1_1"
+				(pin bidirectional line
+					(at 20.32 -15.24 180)
+					(length 2.54)
+					(name "~{RESET}/PB5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -10.16 180)
+					(length 2.54)
+					(name "XTAL1/PB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -12.7 180)
+					(length 2.54)
+					(name "XTAL2/PB4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -15.24 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -2.54 180)
+					(length 2.54)
+					(name "AREF/PB0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -5.08 180)
+					(length 2.54)
+					(name "PB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -7.62 180)
+					(length 2.54)
+					(name "PB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Resistor:R_Generic"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Generic_1_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:PTS645SL43SMTR92_LFS"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Off-Mom"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://github.com/znibb/KiCad-Libraries/blob/main/Datasheet/Button_Switch_SMD/PTS645-Datasheet.pdf"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, off-mom"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "C&K"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_PartNo" "CKN10821CT-ND"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Price1" ""
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Price10" ""
+				(at 0 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button momentary"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PTS645SL43SMTR92_LFS_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 205.74 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c42f05c5-b206-46ea-8296-fbce4f0f5ac9")
+	)
+	(no_connect
+		(at 203.2 109.22)
+		(uuid "bbd8dc80-bf39-4c8e-8722-a7e279a0c80f")
+	)
+	(wire
+		(pts
+			(xy 214.63 96.52) (xy 214.63 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a8d2a51-b2af-461d-8219-b52761eaecd7")
+	)
+	(wire
+		(pts
+			(xy 203.2 96.52) (xy 214.63 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d494442-ae76-460b-998c-44e6b2c153a0")
+	)
+	(wire
+		(pts
+			(xy 205.74 106.68) (xy 214.63 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ef493c-83f1-4092-badf-0d682834e8e1")
+	)
+	(wire
+		(pts
+			(xy 203.2 99.06) (xy 205.74 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0395535-1100-4776-86a4-83d70f4fbada")
+	)
+	(wire
+		(pts
+			(xy 175.26 144.78) (xy 175.26 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9d440d0-306c-4dcf-bef1-65b835ba2880")
+	)
+	(wire
+		(pts
+			(xy 175.26 124.46) (xy 175.26 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10b409f-ffe0-459b-a4f7-d624c5b131ef")
+	)
+	(wire
+		(pts
+			(xy 203.2 106.68) (xy 205.74 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea80f7c2-46f7-4567-bee5-ce478634d11d")
+	)
+	(symbol
+		(lib_id "Connector_USB:USB4135-GF-A")
+		(at 177.8 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2352efbb-f451-4737-802e-1c24970cc8bf")
+		(property "Reference" "J1"
+			(at 178.435 87.63 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USB4135-GF-A"
+			(at 177.8 113.03 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB4135-GF-A"
+			(at 177.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://github.com/znibb/KiCad-Libraries/blob/main/Datasheet/Connector/USB4135-GF-A-Product_Drawing.pdf"
+			(at 177.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GCT"
+			(at 177.8 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_PartNo" "2073-USB4135-GF-A-ACT-ND"
+			(at 177.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Price1" ""
+			(at 177.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Price10" ""
+			(at 177.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "A12"
+			(uuid "85aba08f-a125-4161-be5e-6acc4e3a21b4")
+		)
+		(pin "A5"
+			(uuid "294c091e-06e6-4e41-b765-0e9d1486082d")
+		)
+		(pin "A9"
+			(uuid "c6a9c214-1ea0-4b36-a08f-0e91ec5d6a0f")
+		)
+		(pin "B12"
+			(uuid "d053108c-0c8c-471e-ac69-07c74c0d2e3e")
+		)
+		(pin "B5"
+			(uuid "96c3936e-c5af-4051-864a-f1725b9dd4ed")
+		)
+		(pin "B9"
+			(uuid "5d2f5aa7-11bb-4557-a9e9-1b89f17e94a5")
+		)
+		(pin "S1"
+			(uuid "b49e2f90-f3fe-4ee6-a098-d9b9b4652807")
+		)
+		(instances
+			(project "ThreeMan_HW"
+				(path "/3096edb2-ae40-4a71-9cf3-3cb1be9573d1"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battery_Charger:MCP73831T-2ACI/OT")
+		(at 137.16 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5191109b-c5ac-43e8-9c5c-a5c14dcbae24")
+		(property "Reference" "U1"
+			(at 137.16 99.06 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP73831T-2ACI/OT"
+			(at 137.16 121.92 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 137.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://github.com/znibb/KiCad-Libraries/blob/main/Datasheets/Battery_Chargers/MCP73831-DS20001984H.pdf"
+			(at 137.16 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 137.16 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_PartNo" "MCP73831T-2ACI/OTCT-ND"
+			(at 137.16 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Price1" ""
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Price10" ""
+			(at 137.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcaa1bd7-aa1c-43df-930e-449d44c423a9")
+		)
+		(pin "2"
+			(uuid "d882bd24-ca81-4f31-859a-24d1c7c4245d")
+		)
+		(pin "3"
+			(uuid "0d32add3-a2ba-416d-86e0-731c2b15b6cd")
+		)
+		(pin "4"
+			(uuid "daa3478d-6785-4652-b33a-62196b039e45")
+		)
+		(pin "5"
+			(uuid "abd89162-8262-4ef4-967c-2c4dade84baa")
+		)
+		(instances
+			(project "ThreeMan_HW"
+				(path "/3096edb2-ae40-4a71-9cf3-3cb1be9573d1"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistor:R_Generic")
+		(at 205.74 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "565a6aad-4605-4e48-9df7-788575612176")
+		(property "Reference" "R1"
+			(at 208.28 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k1"
+			(at 208.28 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.962 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 205.74 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21fb458d-4c17-4617-a1c1-5d25ad2697bf")
+		)
+		(pin "2"
+			(uuid "8eda4e78-1ad8-4bca-b756-9e4704675a47")
+		)
+		(instances
+			(project "ThreeMan_HW"
+				(path "/3096edb2-ae40-4a71-9cf3-3cb1be9573d1"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:PTS645SL43SMTR92_LFS")
+		(at 241.3 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f826ea5-970d-4f61-961d-6420a6dc51a7")
+		(property "Reference" "SW?"
+			(at 245.11 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Off-Mom"
+			(at 241.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
+			(at 241.3 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://github.com/znibb/KiCad-Libraries/blob/main/Datasheet/Button_Switch_SMD/PTS645-Datasheet.pdf"
+			(at 241.3 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 241.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_PartNo" "CKN10821CT-ND"
+			(at 241.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Price1" ""
+			(at 241.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Price10" ""
+			(at 241.3 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8428130-d930-407e-80de-765d405870fb")
+		)
+		(pin "2"
+			(uuid "8235c892-4634-4c64-9c70-2657c8c2305d")
+		)
+		(instances
+			(project "ThreeMan_HW"
+				(path "/3096edb2-ae40-4a71-9cf3-3cb1be9573d1"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_ShiftRegister:74HC595PW,118")
+		(at 177.8 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79d87aec-f9bd-4ff2-8ebf-d2db2c32e3d5")
+		(property "Reference" "U?"
+			(at 177.8 120.65 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74HC595"
+			(at 177.8 153.67 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+			(at 177.8 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://github.com/znibb/KiCad-Libraries/blob/main/Datasheet/Interface_ShiftRegister/74HC595-Datasheet.pdf"
+			(at 177.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia USA Inc."
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_PartNo" "1727-3068-1-ND"
+			(at 177.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Price1" ""
+			(at 177.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Price10" ""
+			(at 177.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "270ff9a8-043a-44a6-856e-100126607ebe")
+		)
+		(pin "10"
+			(uuid "ceb21787-7974-451f-afcc-566d808c4bc8")
+		)
+		(pin "11"
+			(uuid "d7966148-5fe9-42d6-84fd-f08fc304cfba")
+		)
+		(pin "12"
+			(uuid "66d30ead-f2c0-40fa-9086-4983af5424b7")
+		)
+		(pin "13"
+			(uuid "8db0870a-b40a-46d9-864a-29fb3047bd71")
+		)
+		(pin "14"
+			(uuid "16fd975a-b4eb-437c-be82-6936c7ee1ddc")
+		)
+		(pin "15"
+			(uuid "8767e04a-65ff-4590-b396-474a4e424116")
+		)
+		(pin "16"
+			(uuid "694c73a1-0fc1-48cd-a27a-3173d6aca3e6")
+		)
+		(pin "2"
+			(uuid "0bff3fcb-a47a-448c-a4e3-bf5bc70470ca")
+		)
+		(pin "3"
+			(uuid "1fe3671b-aa68-41f1-bb6d-21c1c73dc1d9")
+		)
+		(pin "4"
+			(uuid "997a04ec-4eb4-4813-b79d-4533897fb133")
+		)
+		(pin "5"
+			(uuid "77a3f4df-0515-42c5-ba33-d3ac77eea291")
+		)
+		(pin "6"
+			(uuid "26067601-b62f-48ca-8f41-0ade13f978b9")
+		)
+		(pin "7"
+			(uuid "e0cdfd79-0b70-444a-9e20-232ae8f3d09a")
+		)
+		(pin "8"
+			(uuid "5fb490b9-e93a-49d5-86ee-02b70c2675b3")
+		)
+		(pin "9"
+			(uuid "e9b096a1-9acf-47ce-9669-b082595873d2")
+		)
+		(instances
+			(project "ThreeMan_HW"
+				(path "/3096edb2-ae40-4a71-9cf3-3cb1be9573d1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCU_Microchip_ATtiny:ATTINY85-20SUR")
+		(at 209.55 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2f15bf0-712e-4bce-8210-d2be4c04e020")
+		(property "Reference" "U?"
+			(at 209.55 120.65 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ATTINY85-20SUR"
+			(at 209.55 140.97 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+			(at 209.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://github.com/znibb/KiCad-Libraries/blob/main/Datasheet/MCU_Microchip_ATtiny/ATtiny25-45-85-Datasheet.pdf"
+			(at 209.55 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 209.55 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_PartNo" "ATTINY85-20SURCT-ND"
+			(at 209.55 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Price1" ""
+			(at 209.55 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Price10" ""
+			(at 209.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edef24c7-a757-4e2f-9fe5-88a04b82c609")
+		)
+		(pin "2"
+			(uuid "28cff56e-02f1-41a6-aff3-7413c7893fad")
+		)
+		(pin "3"
+			(uuid "35278ad3-d3fd-45e4-a419-cc87fe672de9")
+		)
+		(pin "4"
+			(uuid "a8fef1b8-4dc8-468b-9b1e-c6c5a3632436")
+		)
+		(pin "5"
+			(uuid "3915ee5e-6a28-4709-a2b3-a67e0748a276")
+		)
+		(pin "6"
+			(uuid "a3b5cc0a-395f-41e1-8adc-f74286408a15")
+		)
+		(pin "7"
+			(uuid "15eaf5df-446e-45c7-b20c-15384fe81d64")
+		)
+		(pin "8"
+			(uuid "00691c02-cf0f-4b4f-b00a-96cc31832fe6")
+		)
+		(instances
+			(project "ThreeMan_HW"
+				(path "/3096edb2-ae40-4a71-9cf3-3cb1be9573d1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_TagConnect_TC2030_ICSP")
+		(at 137.16 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c44ade56-e773-4870-a7b0-a0d9ad14ea14")
+		(property "Reference" "J?"
+			(at 137.16 129.54 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_TagConnect_TC2030_ICSP"
+			(at 137.16 147.32 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical"
+			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://github.com/znibb/KiCad-Libraries/blob/main/Datasheet/Connector/TC2030-CTX_1-Datasheet.pdf"
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Drawing" "https://github.com/znibb/KiCad-Libraries/blob/main/Datasheet/Connector/TC2030-IDC-FP-Drawing.pdf"
+			(at 137.16 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "241cf15c-f399-4e60-800f-6a7f73f782a5")
+		)
+		(pin "2"
+			(uuid "a9cdf5cb-da55-476a-9507-2a8e05f87543")
+		)
+		(pin "3"
+			(uuid "c6895438-8e90-414c-bef7-782464ffa820")
+		)
+		(pin "4"
+			(uuid "11909ae5-f2ca-4f57-9207-cc2df61bd869")
+		)
+		(pin "5"
+			(uuid "215b20b9-aa65-4e51-99e3-4165eed478bb")
+		)
+		(pin "6"
+			(uuid "0198bbdd-f10e-4281-a13b-0d08b03031f2")
+		)
+		(instances
+			(project "ThreeMan_HW"
+				(path "/3096edb2-ae40-4a71-9cf3-3cb1be9573d1"
+					(reference "J?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistor:R_Generic")
+		(at 214.63 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea84466b-ed22-46cd-b26f-683563087500")
+		(property "Reference" "R2"
+			(at 217.17 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k1"
+			(at 217.17 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.852 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 214.63 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "278bf681-eb25-4cad-9c68-0f52c81d0b63")
+		)
+		(pin "2"
+			(uuid "43958955-6733-497b-8b34-bf2cd29a9087")
+		)
+		(instances
+			(project "ThreeMan_HW"
+				(path "/3096edb2-ae40-4a71-9cf3-3cb1be9573d1"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
