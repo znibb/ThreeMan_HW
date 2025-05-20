@@ -31,3 +31,6 @@ fp-info-cache
 # Backup files
 \#auto_saved_files\#
 *.zip
+
+# Production files
+output/*
