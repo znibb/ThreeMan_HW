@@ -23483,6 +23483,66 @@
 		(layer "Edge.Cuts")
 		(uuid "a2ffbc1f-46e8-439a-87f5-ee2827c2e43b")
 	)
+	(gr_text "${LAYER}"
+		(at 12.5 15 0)
+		(layer "F.Cu")
+		(uuid "d438f6e0-ae0b-4102-b124-64e930b1cafd")
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "${LAYER}"
+		(at 12.5 15 0)
+		(layer "F.Mask")
+		(uuid "53bd9521-14ae-4013-baa1-b4696e50842a")
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "${LAYER}"
+		(at 12.5 15 0)
+		(layer "B.Cu")
+		(uuid "6d3f0a09-4662-48b7-ae02-24b0acfdc6f8")
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "${LAYER}"
+		(at 12.5 15 0)
+		(layer "B.Mask")
+		(uuid "00ba04fa-421a-4d21-98ab-0f7cc04779ca")
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "${LAYER}"
+		(at 12.5 15 0)
+		(layer "In1.Cu")
+		(uuid "552a7700-d103-41e6-a3af-158b0c5097a9")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
 	(gr_text "${PROJECT_NAME}"
 		(at 77.75 61.25 0)
 		(layer "F.SilkS")
@@ -23531,6 +23591,90 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "${LAYER}"
+		(at 12.5 15 0)
+		(layer "F.SilkS")
+		(uuid "ce14c588-75f0-4b8e-a21e-f4582096de44")
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "${LAYER}"
+		(at 12.5 15 0)
+		(layer "In2.Cu")
+		(uuid "1b105d4a-dcf6-4dce-9b7e-ba7ea9dc712c")
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "${LAYER}"
+		(at 12.5 15 0)
+		(layer "B.SilkS")
+		(uuid "69072c1d-414e-45e0-8d9c-4127a56fa6ae")
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "${LAYER}"
+		(at 12.5 15 0)
+		(layer "F.Adhes")
+		(uuid "5bceb1b2-4cdc-463c-a153-0b35123acbc6")
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "${LAYER}"
+		(at 12.5 15 0)
+		(layer "B.Adhes")
+		(uuid "9743dbe8-da36-4aa4-acd6-15a9c695f650")
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "${LAYER}"
+		(at 12.25 15 0)
+		(layer "F.Paste")
+		(uuid "5d06357e-1b2e-4e96-8296-a4393b666518")
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "${LAYER}"
+		(at 12.5 15 0)
+		(layer "B.Paste")
+		(uuid "9e77119c-528c-4aee-91b5-1f97cb9392ea")
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
 	(gr_text "Die"
 		(at 130 66.8 0)
 		(layer "Dwgs.User")
@@ -23574,6 +23718,133 @@
 				(thickness 0.15)
 			)
 		)
+	)
+	(gr_text "${LAYER}"
+		(at 12.5 15 0)
+		(layer "Dwgs.User")
+		(uuid "847adfe5-9b1a-4342-ae19-c42f03a3e501")
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "${LAYER}"
+		(at 12.5 15 0)
+		(layer "Cmts.User")
+		(uuid "f20736c6-95ae-440f-b1a2-80ed7315d707")
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "${LAYER}"
+		(at 12.5 15 0)
+		(layer "Eco1.User")
+		(uuid "575ae668-f6a4-4eff-9b07-e818b7499e4b")
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "${LAYER}"
+		(at 12.5 15 0)
+		(layer "Eco2.User")
+		(uuid "b44e07a0-ff2a-492f-92ce-81e89b4392b9")
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "${LAYER}"
+		(at 12.5 15 0)
+		(layer "B.CrtYd")
+		(uuid "76a1ad47-a06d-4c26-9520-8754e3fcb3ff")
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "${LAYER}"
+		(at 12.5 15 0)
+		(layer "F.CrtYd")
+		(uuid "56f99339-5de3-4e95-bc5f-9f60393f125e")
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "${LAYER}"
+		(at 12.5 15 0)
+		(layer "B.Fab")
+		(uuid "98be4dbd-0bd2-45b9-abb9-011907d1a62a")
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "${LAYER}"
+		(at 12.5 15 0)
+		(layer "F.Fab")
+		(uuid "c9245bc3-46ac-4d0c-bdd0-c542f5faaa90")
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "${LAYER}"
+		(at 12.5 15 0)
+		(layer "User.1")
+		(uuid "614b9ad8-bf4c-4536-a939-73786f9fa27f")
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text_box "JLCPCB PCB Ordering Information\n\nOnline PCB Quote:\nBase Material: FR-4\nLayers: 4\nDimensions: 80 * 40 mm\nProduct Type: Industrial/Consumer electronics\n\nPCB Specifications:\nDifferent Design: 1\nDelivery Format: Single PCB\nPCB Thickness: 1.6mm\nPCB Color: Green\nSilkscreen: White\nMaterial Type: FR4 TG135\nSurface Finish: LeadFree HASL\n\nHigh-spec Options:\nOuter Copper Weight: 1 oz\nInner Copper Weight: 0.5 oz\nSpecify Layer Sequence: No\nSpecify Stackup: Yes\nLayer Stackup: No requirement\nImpedance Control: No requirement\nVia Covering: Plugged\nVia Plating Method: Not Specified\nMin hole size/diameter: 0.3mm/(0.4/0.45mm)\nBoard Outline Tolerance: ±0.2mm(Regular)\nConfirm Production file: No\nMark on PCB: Remove Mark\nElectrical Test: No\nGold Fingers: No\nCastellated Holes: No\nPress-Fit Hole: No\nEdge Plating: No\nBlind Slots: No\nUL Marking: No\nBackdrill: No\nHumidity Indicator Card: No\n"
+		(start 12.5 20)
+		(end 47.5 104.5)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "User.1")
+		(uuid "dbaca86b-7a01-4f12-898b-9ececec96268")
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left top)
+		)
+		(border no)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(knockout no)
 	)
 	(dimension
 		(type orthogonal)
