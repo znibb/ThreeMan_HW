@@ -1127,8 +1127,8 @@
     "EMAIL": "contact@zkylark.se",
     "PART_NUMBER": "EA-00002",
     "PROJECT_NAME": "ThreeMan",
-    "RELEASE_DATE": "2026-10-24",
-    "VERSION": "2.0.0"
+    "RELEASE_DATE": "2026-10-25",
+    "VERSION": "2.0.1"
   },
   "tuning_profiles": {
     "meta": {

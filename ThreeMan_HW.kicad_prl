@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 39,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -122,32 +122,7 @@
     "../zpklib/jobset/GenerateProductionFiles.kicad_jobset"
   ],
   "project": {
-    "files": [
-      {
-        "name": "ThreeMan_HW.kicad_sch",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 2240,
-          "pos_y": 240,
-          "size_x": 1280,
-          "size_y": 720
-        }
-      },
-      {
-        "name": "ThreeMan_HW.kicad_pcb",
-        "open": true,
-        "window": {
-          "display": 1,
-          "maximized": true,
-          "pos_x": 3802,
-          "pos_y": 0,
-          "size_x": 1496,
-          "size_y": 952
-        }
-      }
-    ]
+    "files": []
   },
   "schematic": {
     "hierarchy_collapsed": [],
