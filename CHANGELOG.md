@@ -7,6 +7,11 @@ Released: YYYY-MM-DD
 ### Fixed
 ### Removed -->
 
+## v2.0.1
+Released: 2026-10-25
+### Added
+1. JLCPCB PCB ordering information to PCB.Comments output
+
 ## v2.0.0
 Released: 2026-10-24
 ### Added
