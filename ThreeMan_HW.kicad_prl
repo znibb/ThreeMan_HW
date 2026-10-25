@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 17,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -124,18 +124,6 @@
   "project": {
     "files": [
       {
-        "name": "ThreeMan_HW.kicad_pcb",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 2251,
-          "pos_y": 0,
-          "size_x": 1496,
-          "size_y": 769
-        }
-      },
-      {
         "name": "ThreeMan_HW.kicad_sch",
         "open": true,
         "window": {
@@ -145,6 +133,18 @@
           "pos_y": 240,
           "size_x": 1280,
           "size_y": 720
+        }
+      },
+      {
+        "name": "ThreeMan_HW.kicad_pcb",
+        "open": true,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 2251,
+          "pos_y": 0,
+          "size_x": 1496,
+          "size_y": 611
         }
       }
     ]
