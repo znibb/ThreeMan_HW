@@ -1,7 +1,7 @@
 # ThreeMan_HW
 
 ## Description
-A simple implementation of the "3-man" dice game. Press the button to roll the dice.
+PCB design for the ThreeMan dice game (see [ThreeMan](https://github.com/znibb/ThreeMan)).
 
 | ![Top](img/PCB_Render_Top.png "Top") | ![Bottom](img/PCB_Render_Bottom.png "Bottom") |
 | --- | --- |
