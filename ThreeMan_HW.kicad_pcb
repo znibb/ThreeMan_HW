@@ -171,8 +171,8 @@
 	(property "EMAIL" "contact@zkylark.se")
 	(property "PART_NUMBER" "EA-00002")
 	(property "PROJECT_NAME" "ThreeMan")
-	(property "RELEASE_DATE" "2026-10-24")
-	(property "VERSION" "2.0.0")
+	(property "RELEASE_DATE" "2026-10-25")
+	(property "VERSION" "2.0.1")
 	(footprint "resistor:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "0359ac84-d5c6-446f-bb68-f8bd97af6116")
@@ -3238,7 +3238,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://parts.b3rl1n.com/media/attachments/part/79/LiteOn-LTST-C191KRKT-datasheet.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3249,7 +3249,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED RED CLEAR SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3260,11 +3260,181 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "LED_Colour" "Red"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "a2332178-3ab0-4ba5-9c06-4edb2cf41bef")
+			(uuid "ef811042-18a1-4e03-b782-f8086753c624")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "D-00005"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94aab9e6-7002-4314-8e23-514e55d3eb1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "InvenTree" "79"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f03a2aeb-caf9-42e5-a38b-25d5833e1b3c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KicadHideFields" "Value"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e7dfb6f-7a5d-425d-b535-5499b818b616")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "775073e2-1cf2-4fdf-98f2-4da20e540ea7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "LiteOn"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1b21e72-7a5f-4cfa-812b-824d0e449921")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MountingTypes" "SMT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d2fbc04-c589-463a-802f-c109aa0a1476")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package_LED" "led:LED_0603_1608Metric"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4b5f741-9d09-4a3d-92c0-1af34dedd7c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "https://parts.b3rl1n.com/web/part/79/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44a3d721-deb2-4b7d-9b0d-2c8232c5e215")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Symbol_LED" "led:LED_x1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7274a7c2-f3de-4095-86af-cbc3c1958f4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMax" "85 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7f42804-c90a-4edb-b838-2a9a04cd8d98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMin" "-55 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f351f17-4397-4f26-b060-889a66980737")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ValueStandard" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d90b2040-3f94-4863-8cd3-7a58e67054f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "VoltageForward" "2 V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "085b1ff6-c8d8-40ee-8c7b-306791afbff1")
 			(effects
 				(font
 					(size 1 1)
@@ -3276,6 +3446,12 @@
 		(path "/451fe487-9c55-4130-8e9c-109a67e82a05")
 		(sheetname "/")
 		(sheetfile "ThreeMan_HW.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A" "C")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5551,7 +5727,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://parts.b3rl1n.com/media/attachments/part/79/LiteOn-LTST-C191KRKT-datasheet.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5562,7 +5738,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED RED CLEAR SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5573,11 +5749,181 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "LED_Colour" "Red"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "34d5a6eb-8aef-4c69-9476-f62a6100f4e7")
+			(uuid "3ecccd37-0383-46d5-9c8a-23e37145d8e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "D-00005"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5c77acd-4a3b-4fb0-a42d-e81b4855f77c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "InvenTree" "79"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b33d930d-d1c9-432a-9769-48d9825f24bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KicadHideFields" "Value"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d9abd86-b010-4209-9ef9-a319adb39ada")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c2029f6-f2e8-4ae9-a92b-f6ab9a4f7a7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "LiteOn"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b87b446-dd6b-4479-969d-6adf13b312db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MountingTypes" "SMT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67fbbd15-4b3c-4534-9dc4-7456097a85c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package_LED" "led:LED_0603_1608Metric"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92d20311-43ad-4d0f-b7db-1b8c04778e9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "https://parts.b3rl1n.com/web/part/79/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7a00157-281d-47bd-805f-fdf0fc7a442e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Symbol_LED" "led:LED_x1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55aea10e-e01c-43d6-8384-d5bce8830f64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMax" "85 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f5e81db-20a2-4402-8e5e-785becd80c73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMin" "-55 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5806f71-ea1d-448d-a4fc-5b15708cd88d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ValueStandard" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b62285d-77c9-47e5-84f5-a0deeed2695b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "VoltageForward" "2 V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11919d5a-71c2-4442-81ba-542f7317bab4")
 			(effects
 				(font
 					(size 1 1)
@@ -5589,6 +5935,12 @@
 		(path "/6792a129-8b89-4afc-b51f-ddcf5087bcc7")
 		(sheetname "/")
 		(sheetfile "ThreeMan_HW.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A" "C")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5711,7 +6063,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://parts.b3rl1n.com/media/attachments/part/76/LiteOn-LTST-C190KGKT-datasheet.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5722,7 +6074,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED GREEN CLEAR CHIP SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5733,11 +6085,181 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "LED_Colour" "Green"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "0e5f609d-42f1-4ce8-ad4e-aadda461cd57")
+			(uuid "5e1275aa-196a-4632-be19-02067c8c1433")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "D-00004"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "135b71a1-0737-46bb-9169-ed3bdc1ead16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "InvenTree" "76"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad1e2074-f883-498e-a9ed-8ea2707bba91")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KicadHideFields" "Value"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0928936e-f67b-4353-aef3-73d7688e19a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "LTST-C190KGKT[A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad3d5e36-bbcb-44fd-a06c-b232bf28855d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "LiteOn"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "976c0be2-f42d-4ed3-a09b-bb3b7039a9a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MountingTypes" "SMT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7a4d3ef-95e0-42bb-a9ca-6c51ca38339b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package_LED" "led:LED_0603_1608Metric"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf8961b8-a7a1-4914-9828-0aaa3c052a21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "https://parts.b3rl1n.com/web/part/76/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0a366d6-5369-439e-a826-d956a7041b2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Symbol_LED" "led:LED_x1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76221779-7d3c-4404-ae76-36e047dfc49d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMax" "85 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f38b933-3a01-43ee-a317-3cd9759d8b92")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMin" "-30 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a20d328-edac-46d8-9041-cc0c8dddb5d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ValueStandard" "LTST-C190KGKT[A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb6d9cf1-76d0-46cc-868f-e2afef76f36e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "VoltageForward" "2.1 V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7b37862-d81e-4df1-a777-69cf5c48490a")
 			(effects
 				(font
 					(size 1 1)
@@ -5749,6 +6271,12 @@
 		(path "/23fcc970-3305-408c-b640-bb9719fd661c")
 		(sheetname "/")
 		(sheetfile "ThreeMan_HW.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A" "C")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6853,7 +7381,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://parts.b3rl1n.com/media/attachments/part/79/LiteOn-LTST-C191KRKT-datasheet.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6864,7 +7392,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED RED CLEAR SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6875,11 +7403,181 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "LED_Colour" "Red"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "43da6c40-af6c-45d5-b3b6-8e89b26bee7f")
+			(uuid "4114163f-a5d9-4be9-a267-d22cddf753c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "D-00005"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c778e82-1b35-47de-adf4-06663aec187b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "InvenTree" "79"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f875aac-8edd-4da8-bc2c-3b93e9243e70")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KicadHideFields" "Value"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18384829-67a6-4fb2-abb1-c41ddecaabd9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a2ab0ad-c969-45bd-9127-94095bec7d98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "LiteOn"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bfaa660c-aad7-465f-af9b-ab97b99fc457")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MountingTypes" "SMT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2241305-12d4-423d-a09c-f7c30cb37334")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package_LED" "led:LED_0603_1608Metric"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec3ebe42-0868-4944-ae62-65db249b07bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "https://parts.b3rl1n.com/web/part/79/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b34bce7-c326-42a1-838a-226df6630e75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Symbol_LED" "led:LED_x1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0af8c220-cb53-4611-88b0-03f688931600")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMax" "85 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4ac1b7c-53f8-42e4-87fb-f037599cf5d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMin" "-55 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67f2a754-6ba6-4576-9dfc-5b368de6b1e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ValueStandard" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d57e5372-5dcd-4693-a471-c38920eaf661")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "VoltageForward" "2 V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae5607d8-1b48-4613-9b73-8cd12065da3c")
 			(effects
 				(font
 					(size 1 1)
@@ -6891,6 +7589,12 @@
 		(path "/2286b114-1824-4155-90ed-e72d2b5b2f7c")
 		(sheetname "/")
 		(sheetfile "ThreeMan_HW.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A" "C")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7445,7 +8149,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://parts.b3rl1n.com/media/attachments/part/79/LiteOn-LTST-C191KRKT-datasheet.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7456,7 +8160,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED RED CLEAR SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7467,11 +8171,181 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "LED_Colour" "Red"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "71170eef-dd2d-49c5-8c07-ce54c75243c8")
+			(uuid "89ef45dd-3b22-486b-b1ac-48748e4af9b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "D-00005"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "183c26dd-3ab3-4614-82d9-e1e3c267cdf1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "InvenTree" "79"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f6966f1-f0ff-45ea-aa9e-feb53c29c11e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KicadHideFields" "Value"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "333f1232-d1e4-465b-a97a-a37914723aad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a86f670-1a73-4de5-a308-7382fcc1910f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "LiteOn"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9285925b-8753-40b7-a4a0-a4564f58cef0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MountingTypes" "SMT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b029f97-f438-4595-a5cf-fd4af69c5eaf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package_LED" "led:LED_0603_1608Metric"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a2b1505-a5ec-41e9-840d-e53a614566b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "https://parts.b3rl1n.com/web/part/79/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5476e94d-add9-4e23-9b79-551f0983bdb0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Symbol_LED" "led:LED_x1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8811268-0a6c-4e2c-bca1-43395bed5606")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMax" "85 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a5093d4-235e-4451-b90a-440270313798")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMin" "-55 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92b6ef0a-bd2c-4d50-978c-956684963e28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ValueStandard" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96770422-85c0-41ec-bbc1-e4275c3b2f88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "VoltageForward" "2 V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80b7a75d-c23c-44b1-819c-6f82d2085b09")
 			(effects
 				(font
 					(size 1 1)
@@ -7483,6 +8357,12 @@
 		(path "/8ba24621-90b8-46e6-8a21-1422c5f9fa66")
 		(sheetname "/")
 		(sheetfile "ThreeMan_HW.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A" "C")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7605,7 +8485,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://parts.b3rl1n.com/media/attachments/part/79/LiteOn-LTST-C191KRKT-datasheet.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7616,7 +8496,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED RED CLEAR SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7627,11 +8507,181 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "LED_Colour" "Red"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "9e8c3a8f-267a-4d5a-8f5d-c00869d9a643")
+			(uuid "dc17e14b-185b-427d-9d5b-6fe2c190fcd5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "D-00005"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "625d4e8c-3b62-4286-b0db-73bfb8887d29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "InvenTree" "79"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5be47f7-20d3-4ed3-85d8-ba9bf2e2997c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KicadHideFields" "Value"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ef011ef-b7e0-46c0-bfa9-6dfcd2818415")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b016c08c-fb7f-4c8f-9733-502235d0f998")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "LiteOn"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7c473f4-d382-44d0-aa63-d4b7e9ef116c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MountingTypes" "SMT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00d2bfb4-fb77-4af5-bb9b-a8d0212cdded")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package_LED" "led:LED_0603_1608Metric"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d7b207a-b360-4682-8742-898c5ff8c997")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "https://parts.b3rl1n.com/web/part/79/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "085e5641-b0b4-46e2-b9f1-556b82374632")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Symbol_LED" "led:LED_x1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73338605-f1b3-470c-9791-cf002f7692ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMax" "85 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c69ca81-8aaa-485d-a622-4b93fa00f9ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMin" "-55 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1fe751c-9cf7-42f8-bbcd-b96a5bc9afe3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ValueStandard" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a250c5b-a6fe-4097-8ec7-13430ae8d26d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "VoltageForward" "2 V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6b5df61-ddbd-44f1-85ce-bc45193fe8c8")
 			(effects
 				(font
 					(size 1 1)
@@ -7643,6 +8693,12 @@
 		(path "/7465ce69-b618-43f3-9efe-882c5a6a702f")
 		(sheetname "/")
 		(sheetfile "ThreeMan_HW.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A" "C")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10853,7 +11909,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://parts.b3rl1n.com/media/attachments/part/79/LiteOn-LTST-C191KRKT-datasheet.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10864,7 +11920,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED RED CLEAR SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10875,11 +11931,181 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "LED_Colour" "Red"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "7b9f635d-3703-4948-810b-d661611903bf")
+			(uuid "7b1e7f91-764f-4e5b-b5e3-d75a1a9f5f05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "D-00005"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7895f394-e26e-4003-ac23-2aba65ae6f69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "InvenTree" "79"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fee6fd9b-949a-4b1c-9cb1-431601e466fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KicadHideFields" "Value"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3e1ae5e-5686-4929-ab49-87dc0235e977")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96f20e27-d616-41e4-8e5b-0a286bc839b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "LiteOn"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28f43244-6726-4fd4-9be0-2dffeb8ac185")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MountingTypes" "SMT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b988166a-fb0a-4988-929a-d084d3b1ff1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package_LED" "led:LED_0603_1608Metric"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eac2a5af-372b-49c9-a74c-2d368190174d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "https://parts.b3rl1n.com/web/part/79/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3ce823e-9a0a-4ae1-94ae-b8f697487c9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Symbol_LED" "led:LED_x1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e73b1b44-8989-4d39-b207-d8e6b1e4ac37")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMax" "85 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5dbc6de-701d-4842-af0d-88e8e25a0ecb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMin" "-55 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "049a3a00-b059-4e27-8483-c7dd4398b1bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ValueStandard" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c46992b-17c8-4950-ab4b-f1fbb09833fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "VoltageForward" "2 V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6793d27a-b6e1-4491-9d70-7f0487453fe0")
 			(effects
 				(font
 					(size 1 1)
@@ -10891,6 +12117,12 @@
 		(path "/fc05227b-8d75-4cbc-8921-f97beb819433")
 		(sheetname "/")
 		(sheetfile "ThreeMan_HW.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A" "C")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12165,7 +13397,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://parts.b3rl1n.com/media/attachments/part/79/LiteOn-LTST-C191KRKT-datasheet.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12176,7 +13408,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED RED CLEAR SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12187,11 +13419,181 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "LED_Colour" "Red"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "36f21d28-f3be-4ef3-9757-34a18f9813e0")
+			(uuid "cf2e4f09-a6c1-486a-8d5d-e95492f58d20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "D-00005"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5e8ac77-613f-4420-b7fb-4abadaf84fed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "InvenTree" "79"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "068f4b7b-b337-450f-8b75-ac96fbe48134")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KicadHideFields" "Value"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7e6c37f-9c2d-4c26-8b6b-3910d3193bac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4fd7e15b-6422-417a-bc21-691c6c84d9ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "LiteOn"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "005a0a3b-8d24-4cad-b024-bc6b8e0bf0ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MountingTypes" "SMT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d30ec8a-17b9-4328-8de8-b5c892df6b55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package_LED" "led:LED_0603_1608Metric"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "029b1a31-9e8c-4bc4-aab0-34731d217813")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "https://parts.b3rl1n.com/web/part/79/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d172be38-2915-4cd4-8fc4-68911895ac43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Symbol_LED" "led:LED_x1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9432637-292f-445a-8ee9-7f56840a2506")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMax" "85 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0084bca-dc8c-423f-ac08-7735baa342b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMin" "-55 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ec6ea7c-e3f5-49c4-bc03-2098740320ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ValueStandard" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68218008-ccba-4b24-9304-702d7821b587")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "VoltageForward" "2 V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1607c821-ad9b-4bcb-9490-605a71a02396")
 			(effects
 				(font
 					(size 1 1)
@@ -12203,6 +13605,12 @@
 		(path "/ae31458c-2377-4f61-8bfc-57f2bef2f103")
 		(sheetname "/")
 		(sheetfile "ThreeMan_HW.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A" "C")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12325,7 +13733,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://parts.b3rl1n.com/media/attachments/part/79/LiteOn-LTST-C191KRKT-datasheet.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12336,7 +13744,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED RED CLEAR SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12347,11 +13755,181 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "LED_Colour" "Red"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "125748f3-411b-402d-95b9-5b2106ccf118")
+			(uuid "3b947cbc-ef71-4f4d-bcd6-8a5f904cdf99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "D-00005"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35d1510d-628a-49cc-b45c-49f61e9dc959")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "InvenTree" "79"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6557d97c-0d1c-486b-89f0-283ce9e07d8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KicadHideFields" "Value"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06c956ce-4d78-4287-a9e9-06f91c76dbe2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2c39e69-542a-43f5-a8a6-3c4b0bac5e95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "LiteOn"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf9738f6-16b5-4b18-a7c1-513c3311171a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MountingTypes" "SMT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aee0c20c-c9ba-4efa-a8c8-e93b60293a6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package_LED" "led:LED_0603_1608Metric"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d7af8d6-d98f-4ff5-80df-18bb71c6fe0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "https://parts.b3rl1n.com/web/part/79/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9b28c07-091e-4b90-8090-123f01119f2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Symbol_LED" "led:LED_x1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76dad627-e298-444a-837a-eaf310c79c7f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMax" "85 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "624eee6b-c6ba-4c07-a0a9-a293be40c71d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMin" "-55 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9dd1cba-dc56-48cf-bfb3-dfe95b87a13a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ValueStandard" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73c7eaca-5442-4412-8800-a37c6b409766")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "VoltageForward" "2 V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e9fc998-d440-4e53-8d60-bd8e946e3a62")
 			(effects
 				(font
 					(size 1 1)
@@ -12363,6 +13941,12 @@
 		(path "/afc88e64-0b1a-44a6-92f0-9f0c751653f2")
 		(sheetname "/")
 		(sheetfile "ThreeMan_HW.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A" "C")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12485,7 +14069,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://parts.b3rl1n.com/media/attachments/part/79/LiteOn-LTST-C191KRKT-datasheet.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12496,7 +14080,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED RED CLEAR SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12507,11 +14091,181 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(property "LED_Colour" "Red"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "8790cc62-66a7-4150-888a-2b34308680d2")
+			(uuid "bc3b11c9-bba8-4457-b46b-21ce93bdac09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "D-00005"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79d5537c-51be-49be-a510-508571288b25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "InvenTree" "79"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f362e46-b4df-4ec1-8242-bb639f695824")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KicadHideFields" "Value"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c564ca3b-7ef9-4bf5-bcf5-0d25f916af39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "LTST-C191KRKT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35999e3f-d107-49c3-8486-31a811c3ed31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "LiteOn"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b626c264-2220-4867-81fb-9f8bf835b82f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MountingTypes" "SMT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2e2be51-8ad7-46fd-a498-a15b1731bbce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package_LED" "led:LED_0603_1608Metric"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f6faa98-cbad-496a-bc49-f38216020ca7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "https://parts.b3rl1n.com/web/part/79/"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c67cffed-83fb-4454-9672-094a3a017b84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Symbol_LED" "led:LED_x1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0137f671-b925-4cd8-985f-5088c24ab1cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMax" "85 °C"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "150d9b51-3eeb-4e90-abf4-0db4a870775e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMin" "-55 °C"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "104c6fdd-0bb6-408d-99ab-dda763f61f2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ValueStandard" "LTST-C191KRKT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f9d2f33-cf34-4a9e-b109-ea1c29521599")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "VoltageForward" "2 V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "243858b8-ea6e-4735-9add-6aff489b9cec")
 			(effects
 				(font
 					(size 1 1)
@@ -12523,6 +14277,12 @@
 		(path "/90f3c179-f915-4469-b3e9-be5559c6b186")
 		(sheetname "/")
 		(sheetfile "ThreeMan_HW.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A" "C")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12968,7 +14728,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://parts.b3rl1n.com/media/attachments/part/79/LiteOn-LTST-C191KRKT-datasheet.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12979,7 +14739,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED RED CLEAR SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12990,11 +14750,181 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "LED_Colour" "Red"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "794d72c5-3351-4914-8d45-1fe26e5a4ba8")
+			(uuid "e58b449e-e86b-49d1-8d07-4b7352997fbc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "D-00005"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5767e080-7789-4ea1-94bf-8f57ff5f6638")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "InvenTree" "79"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d750da49-8347-4afa-9ed0-1e2aaa012469")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KicadHideFields" "Value"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3891d3f-86c8-493d-a6fd-47e716e18cf6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a945fec4-f99c-4895-93b3-0d71e77e3386")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "LiteOn"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "372217e4-7209-4fad-9839-6c977ad17648")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MountingTypes" "SMT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78e79ee1-ffe0-490b-a7a6-f20b8d0cf209")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package_LED" "led:LED_0603_1608Metric"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8740a71-f224-4878-94b0-039ec038e335")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "https://parts.b3rl1n.com/web/part/79/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1378d396-20dc-465d-bb58-ff975b97f29f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Symbol_LED" "led:LED_x1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f475c914-43c9-4ca0-b103-89a9ba908d29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMax" "85 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36c76250-9629-4040-b870-d2749ac4a2b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMin" "-55 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf6c14ba-6364-489f-be27-da15dad2b7ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ValueStandard" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0731681-1425-4e9b-9b71-c1c05382b0f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "VoltageForward" "2 V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40489017-4f79-45ae-a2b2-2e8dcae79974")
 			(effects
 				(font
 					(size 1 1)
@@ -13006,6 +14936,12 @@
 		(path "/1093f071-97af-4658-8444-7b0b30bd5658")
 		(sheetname "/")
 		(sheetfile "ThreeMan_HW.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A" "C")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13128,7 +15064,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://parts.b3rl1n.com/media/attachments/part/79/LiteOn-LTST-C191KRKT-datasheet.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13139,7 +15075,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED RED CLEAR SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13150,11 +15086,181 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "LED_Colour" "Red"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "de83a8c1-f0fb-4e3a-8867-65861778742b")
+			(uuid "47363470-6c96-4dbd-b17a-faf2312e9088")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "D-00005"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3f7229e-021d-46eb-8235-f62ac982e618")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "InvenTree" "79"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b78c57b-e45b-4e33-af22-e65900ea3b0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KicadHideFields" "Value"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fd3b8ee-8d5c-4d88-9066-d9ba7dde57a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2fe4ec7-7532-4d93-a583-52df29ea03f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "LiteOn"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6cc355ea-34a9-4e8e-9bfc-1632d506fa62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MountingTypes" "SMT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a24da86-51fa-4da6-a5b5-74e64def38da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package_LED" "led:LED_0603_1608Metric"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3627736-6be8-4dae-bccc-b00fcfe45546")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "https://parts.b3rl1n.com/web/part/79/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "158b406d-e658-42d5-a352-3251a5dcd88d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Symbol_LED" "led:LED_x1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee534e50-ee46-4eb8-9eab-dc36a35fcef1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMax" "85 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "763e95df-8a9d-4c51-ad28-775bba7ce3af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMin" "-55 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f16188c-f181-495a-9fd0-54f0aa14893d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ValueStandard" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01019f69-5a03-4306-8f22-199853f4f6d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "VoltageForward" "2 V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce486447-61b9-41a2-b610-5cbef345faaf")
 			(effects
 				(font
 					(size 1 1)
@@ -13166,6 +15272,12 @@
 		(path "/8e7f512e-1d6a-4331-8cfd-fd5445a3db94")
 		(sheetname "/")
 		(sheetfile "ThreeMan_HW.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A" "C")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14045,7 +16157,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://parts.b3rl1n.com/media/attachments/part/79/LiteOn-LTST-C191KRKT-datasheet.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14056,7 +16168,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED RED CLEAR SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14067,11 +16179,181 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "LED_Colour" "Red"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "0286cb71-a8fe-470c-8293-e49e2afb6c18")
+			(uuid "5a4f6172-2d8e-4381-9fcc-6aa3332c3d7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "D-00005"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26db3613-aa41-4e7b-9c94-d75dcd3d6d53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "InvenTree" "79"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2486c031-953c-4c91-9e92-e92116749d01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KicadHideFields" "Value"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "adc719ff-23f8-467b-862c-302d95acb177")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e023a58d-3d2a-4052-bc38-39c15d7ad2fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "LiteOn"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "acd0fcd8-4181-4e1f-9c41-05303725d06e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MountingTypes" "SMT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e9a53ac-360b-4b38-a27f-b186e7041c32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package_LED" "led:LED_0603_1608Metric"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5bbbad1b-b1ec-4272-85b5-e813f79875f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "https://parts.b3rl1n.com/web/part/79/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ef19496-5c7d-4f14-aa01-6eacaf4092c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Symbol_LED" "led:LED_x1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88d8e578-f0f5-4f75-8754-bb5483bc11d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMax" "85 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78c912db-0f17-4f84-ab6f-409cbfe17fa4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMin" "-55 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5b5e618-0ad2-43ad-823e-468d9c242b36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ValueStandard" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f9d1fae-54ca-4748-a6ed-d27ee6b86779")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "VoltageForward" "2 V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1dc86d41-6899-4c3d-a662-60c9a369a601")
 			(effects
 				(font
 					(size 1 1)
@@ -14083,6 +16365,12 @@
 		(path "/f1146d9a-6cb8-400f-b0eb-d438bb833b11")
 		(sheetname "/")
 		(sheetfile "ThreeMan_HW.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A" "C")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14232,38 +16520,12 @@
 				)
 			)
 		)
-		(property "Manufacturer" "GCT"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c59ed5d9-e7f9-4eea-8605-e5cd8a1db528")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "USB4135-GF-A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "73bce002-f0bd-422c-8582-c183f58be3e4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "ConnectorGender" "Female"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4fe8486f-3330-43c6-85b0-0e7a0b863d45")
+			(uuid "f53e0c2d-bc3b-4673-9203-723944856dd7")
 			(effects
 				(font
 					(size 1 1)
@@ -14276,7 +16538,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "761ea941-a5c1-4b9f-8e25-971cb3fa5ed7")
+			(uuid "eaaf5dda-e50b-4de1-925e-e3e36e804e8b")
 			(effects
 				(font
 					(size 1 1)
@@ -14289,7 +16551,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dedbde68-72a5-4482-887b-d000079b43da")
+			(uuid "149aea02-9209-4e80-b718-695be6d3025c")
 			(effects
 				(font
 					(size 1 1)
@@ -14302,7 +16564,33 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d57e7631-c967-4943-89ce-98b998181f02")
+			(uuid "a99eaa42-0218-4b27-839a-935b1777ee4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "USB4135-GF-A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4519fdf-173b-4c80-bcb8-bc4b0d6841d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "GCT"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d91883c9-4a88-4b81-8e6f-d25e5ed537f1")
 			(effects
 				(font
 					(size 1 1)
@@ -14315,7 +16603,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7695e212-7e96-49d2-92fb-7640501965c8")
+			(uuid "51b5953c-ccbf-4f1e-8333-6aa0e2bfa677")
 			(effects
 				(font
 					(size 1 1)
@@ -14328,7 +16616,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "851750c8-fac6-40b0-8f23-9225ab771f27")
+			(uuid "3a60b22b-369f-4269-b99c-2feefe156c36")
 			(effects
 				(font
 					(size 1 1)
@@ -14341,7 +16629,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19a08ab3-92ab-44de-b324-9bb8cd6bac0e")
+			(uuid "80f45a76-8367-401f-9e49-670230d7fdc2")
 			(effects
 				(font
 					(size 1 1)
@@ -14354,7 +16642,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d839dade-8b26-48a9-b46b-8b08ea7802cd")
+			(uuid "9504ac51-9a8f-4ea8-896c-b5167ab9930e")
 			(effects
 				(font
 					(size 1 1)
@@ -14367,7 +16655,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5dbcb3eb-856f-4396-a2cb-0fe6acea66e6")
+			(uuid "d7323fd3-1584-4fe5-a3d5-631c006f00fa")
 			(effects
 				(font
 					(size 1 1)
@@ -14380,7 +16668,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "84e927cd-1c1a-4de1-b624-08cac8872945")
+			(uuid "edebd8f8-b386-4855-a36a-edfcd1be89c7")
 			(effects
 				(font
 					(size 1 1)
@@ -14393,7 +16681,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "17ecb77f-4d76-49ac-b9cb-e19cff5e46d9")
+			(uuid "90f537af-ba22-4e00-87dd-3aca1da8e585")
 			(effects
 				(font
 					(size 1 1)
@@ -14406,7 +16694,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6b0c2b9c-9269-43f0-a5c2-2b584dc4ed14")
+			(uuid "67e7972c-e848-4e58-b46c-917aeeb8a5c6")
 			(effects
 				(font
 					(size 1 1)
@@ -14473,7 +16761,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(layer "Dwgs.User")
+			(layer "Cmts.User")
 			(uuid "2095e287-f401-4432-a4e1-907456214ea5")
 		)
 		(fp_line
@@ -14650,7 +16938,7 @@
 		(fp_text user "PCB Edge"
 			(at 0 2.9 270)
 			(unlocked yes)
-			(layer "Dwgs.User")
+			(layer "Cmts.User")
 			(uuid "e882a978-ad0e-4b36-8980-ec7924408be6")
 			(effects
 				(font
@@ -16558,7 +18846,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://parts.b3rl1n.com/media/attachments/part/79/LiteOn-LTST-C191KRKT-datasheet.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16569,7 +18857,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED RED CLEAR SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16580,11 +18868,181 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "LED_Colour" "Red"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "e0ba2e75-796f-4c02-a31f-d02326410e14")
+			(uuid "3decb64b-3bf0-40c6-bb6f-bfdd67ca66b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "D-00005"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b70314d4-09e8-40f9-afe3-7333ee51a6e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "InvenTree" "79"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "998e5db4-e6fe-42d0-bcd2-71bbde50e70c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KicadHideFields" "Value"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3ee7a33-bc39-41e8-9c83-9f3cdd9eb336")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "125dc879-e25b-4a70-9fed-20e285676fd9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "LiteOn"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59e0574f-8687-4281-b7b8-32c3048d0f85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MountingTypes" "SMT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "099bccf2-cd76-4fba-a6d7-ef6e1fe87a0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package_LED" "led:LED_0603_1608Metric"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd3a7256-6c05-4600-8c64-91496154eaf6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "https://parts.b3rl1n.com/web/part/79/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "517df485-0664-4c84-a130-a7d26e9e6128")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Symbol_LED" "led:LED_x1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbe95020-626e-41a9-8d6b-911729bfb477")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMax" "85 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e027d49d-f7b8-4fab-a7fc-f9a0fcac9273")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMin" "-55 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a65dc0b2-6908-492a-a53d-14714b2c0912")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ValueStandard" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "634fc67e-6610-4e68-9da1-3589ddb34dac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "VoltageForward" "2 V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3e82516-0896-4014-9497-c1c84282510f")
 			(effects
 				(font
 					(size 1 1)
@@ -16596,6 +19054,12 @@
 		(path "/f087b441-e047-40cc-b1ed-d80455904e42")
 		(sheetname "/")
 		(sheetfile "ThreeMan_HW.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A" "C")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18036,25 +20500,12 @@
 				)
 			)
 		)
-		(property "MPN" "CSS-1210TB"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f9c03c49-deb1-48c2-aaa2-edb4cecf7263")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "ActuatorLength" "2 mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ca3912f7-125b-4633-a2ef-434907dcf710")
+			(uuid "755a3853-7713-4fce-96c1-8d37e5192fe0")
 			(effects
 				(font
 					(size 1 1)
@@ -18067,7 +20518,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c55e122c-1390-466b-9ef6-17d617faf2f1")
+			(uuid "ac69d0e2-da30-40e7-8b78-3d96baa6fe35")
 			(effects
 				(font
 					(size 1 1)
@@ -18080,7 +20531,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3b952d09-2431-4b79-b872-f0339f9d5e85")
+			(uuid "b17cd1df-5a29-4fe2-ae78-b9f614f8f91e")
 			(effects
 				(font
 					(size 1 1)
@@ -18093,7 +20544,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c0465cdf-9417-49ac-856c-c00c21e87382")
+			(uuid "78463c15-1b0b-4c4f-9a0f-f1344f71483a")
 			(effects
 				(font
 					(size 1 1)
@@ -18106,7 +20557,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "583d1d79-4106-42ed-ad73-690782158f1f")
+			(uuid "c742714b-59f0-48f2-aafc-bac5c2fc04da")
 			(effects
 				(font
 					(size 1 1)
@@ -18119,7 +20570,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c6cd6f9d-e078-4e93-a595-0f814000145c")
+			(uuid "e7fdd081-83fd-46ed-815a-a441547c546a")
 			(effects
 				(font
 					(size 1 1)
@@ -18132,7 +20583,20 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aaf0f7cf-08cd-4bbc-9bbe-7ad1dfd64030")
+			(uuid "757561aa-f349-4345-aad1-eae04cfe0665")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CSS-1210TB"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17f46ad2-e1fa-4f8e-9d70-ffc50f2ba5ec")
 			(effects
 				(font
 					(size 1 1)
@@ -18145,7 +20609,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ad2e9a5d-4046-4de9-affc-93e631178dd2")
+			(uuid "a07994d1-7041-4ccc-afaf-0495d14c0831")
 			(effects
 				(font
 					(size 1 1)
@@ -18158,7 +20622,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d81cd44a-973f-496a-becb-1ada73587528")
+			(uuid "40a49122-b358-4855-86b3-e0dbc21c55fd")
 			(effects
 				(font
 					(size 1 1)
@@ -18171,7 +20635,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d2811126-5c98-4470-be8e-87d8fe844efd")
+			(uuid "eebed532-2f6a-4b25-94c5-fec733fdaaff")
 			(effects
 				(font
 					(size 1 1)
@@ -18184,7 +20648,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e06c5083-a92d-469c-80e7-f67ff13c2077")
+			(uuid "d1795c7f-fba8-4a58-b342-c7d11a2d83ec")
 			(effects
 				(font
 					(size 1 1)
@@ -18197,7 +20661,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a863e132-f5d9-46ed-b57b-e4fa8bbae484")
+			(uuid "881fedb9-bf02-4568-a448-3034b5baa93c")
 			(effects
 				(font
 					(size 1 1)
@@ -18210,7 +20674,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ac5d1986-cd3f-486f-a7f7-6091ac0bbd3a")
+			(uuid "7fa00ddf-4c50-4c76-9844-c3feb041f5a5")
 			(effects
 				(font
 					(size 1 1)
@@ -18223,7 +20687,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9d555ee3-bbbc-41bf-88cb-19dc7581de29")
+			(uuid "5837a343-d1af-4136-ac29-02303166c12e")
 			(effects
 				(font
 					(size 1 1)
@@ -18236,7 +20700,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ec846b4e-a87c-440b-8e29-f5c63ded60a0")
+			(uuid "9e547e91-3f23-4977-a9cd-61c1b3974052")
 			(effects
 				(font
 					(size 1 1)
@@ -18249,7 +20713,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7deb51d8-5cb5-4d32-8f24-68a7448b65ae")
+			(uuid "fc68db55-de1c-467c-8e54-8365344665fa")
 			(effects
 				(font
 					(size 1 1)
@@ -18262,7 +20726,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a0788751-4659-460f-958a-851ee1eb437f")
+			(uuid "1bc9a7ff-58b8-4cfa-b685-d42a1f0d934a")
 			(effects
 				(font
 					(size 1 1)
@@ -18352,6 +20816,66 @@
 			(layer "F.SilkS")
 			(uuid "ec6ddcda-eee2-4585-8ca9-9023d8f37c24")
 		)
+		(fp_line
+			(start 1.2 3.85)
+			(end 1.2 6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "dbc46e9d-afcc-4b65-a438-a049a9eff5e3")
+		)
+		(fp_line
+			(start 1.2 6)
+			(end 2.8 6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "e9dede39-f909-4c17-9fa5-d04ca4b6fe21")
+		)
+		(fp_line
+			(start 2.8 3.85)
+			(end 2.8 6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "b94c2f5e-347d-4fa0-a2ca-349b1f62f0c3")
+		)
+		(fp_line
+			(start 3.2 6)
+			(end 3.2 3.85)
+			(stroke
+				(width 0.1)
+				(type dot)
+			)
+			(layer "Cmts.User")
+			(uuid "5e5854f6-7f60-4943-9ea8-afcbc158902c")
+		)
+		(fp_line
+			(start 4.8 6)
+			(end 3.2 6)
+			(stroke
+				(width 0.1)
+				(type dot)
+			)
+			(layer "Cmts.User")
+			(uuid "c80083ec-2030-43dc-bb7a-476af03f4d50")
+		)
+		(fp_line
+			(start 4.8 6)
+			(end 4.8 3.85)
+			(stroke
+				(width 0.1)
+				(type dot)
+			)
+			(layer "Cmts.User")
+			(uuid "58ca48e3-2ac8-41dc-aeca-7585256ed4bd")
+		)
 		(fp_rect
 			(start -1.7 -1.4)
 			(end 7.7 4.5)
@@ -18392,66 +20916,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "779d62b4-1800-4cc6-9b08-43f7bbc9dbc0")
-		)
-		(fp_line
-			(start 1.2 3.85)
-			(end 1.2 6)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.Fab")
-			(uuid "dbc46e9d-afcc-4b65-a438-a049a9eff5e3")
-		)
-		(fp_line
-			(start 1.2 6)
-			(end 2.8 6)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.Fab")
-			(uuid "e9dede39-f909-4c17-9fa5-d04ca4b6fe21")
-		)
-		(fp_line
-			(start 2.8 3.85)
-			(end 2.8 6)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.Fab")
-			(uuid "b94c2f5e-347d-4fa0-a2ca-349b1f62f0c3")
-		)
-		(fp_line
-			(start 3.2 6)
-			(end 3.2 3.85)
-			(stroke
-				(width 0.1)
-				(type dot)
-			)
-			(layer "F.Fab")
-			(uuid "5e5854f6-7f60-4943-9ea8-afcbc158902c")
-		)
-		(fp_line
-			(start 4.8 6)
-			(end 2.8 6)
-			(stroke
-				(width 0.1)
-				(type dot)
-			)
-			(layer "F.Fab")
-			(uuid "c80083ec-2030-43dc-bb7a-476af03f4d50")
-		)
-		(fp_line
-			(start 4.8 6)
-			(end 4.8 3.85)
-			(stroke
-				(width 0.1)
-				(type dot)
-			)
-			(layer "F.Fab")
-			(uuid "58ca48e3-2ac8-41dc-aeca-7585256ed4bd")
 		)
 		(fp_line
 			(start 7.425 3.85)
@@ -19677,7 +22141,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://parts.b3rl1n.com/media/attachments/part/79/LiteOn-LTST-C191KRKT-datasheet.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19688,7 +22152,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED RED CLEAR SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19699,11 +22163,181 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "LED_Colour" "Red"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "f26d4989-6dc8-4081-99b7-1074ad960100")
+			(uuid "2a3edfcd-9c75-4877-8472-bc878ffae61d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "D-00005"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0316cdf-5a2d-44b3-bdbb-936b2b54c13e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "InvenTree" "79"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "310bb639-db9d-467c-a4ac-2d16f696c0f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KicadHideFields" "Value"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f72215e4-69a4-4e5b-bf01-332ce2d4d970")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "697b59cd-ff17-4f6e-aca6-a8edec07872f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "LiteOn"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12adeb43-9f46-469e-a709-51a1becfd45d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MountingTypes" "SMT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "163c89be-2c91-4200-8cd8-22199f9fd822")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package_LED" "led:LED_0603_1608Metric"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ca65f53-a31f-4a40-a06a-2d5e564b89eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "https://parts.b3rl1n.com/web/part/79/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1ddc766-7e3c-4afb-bce0-61bae3973b0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Symbol_LED" "led:LED_x1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "383f84d9-df5b-438a-a771-c71a12e08bf5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMax" "85 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ba8f4cd-6a0a-441b-8605-509785e1ed30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMin" "-55 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e087cef-b6f7-4c3e-9d2b-e99d4c67ac76")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ValueStandard" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1b384c4-44d2-477c-b151-0c0eb9136fd7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "VoltageForward" "2 V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c13ae23-f3c3-4767-bc81-33fde54782dc")
 			(effects
 				(font
 					(size 1 1)
@@ -19715,6 +22349,12 @@
 		(path "/68af9da2-8a27-4511-a893-d68bb4536253")
 		(sheetname "/")
 		(sheetfile "ThreeMan_HW.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A" "C")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22707,7 +25347,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://parts.b3rl1n.com/media/attachments/part/79/LiteOn-LTST-C191KRKT-datasheet.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22718,7 +25358,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED RED CLEAR SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22729,11 +25369,181 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
+		(property "LED_Colour" "Red"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "0c596036-0e7e-4ba3-b8aa-3f2cc8aa2884")
+			(uuid "e7e68cf7-da2b-4573-8080-98ad92dec8a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IPN" "D-00005"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b07ae492-c4e6-42b5-8138-241617471f40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "InvenTree" "79"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5711339c-5d69-4c71-8df6-79590b5d7b73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KicadHideFields" "Value"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61973a34-83c7-48bb-9a59-3bb1049b60e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c128698f-2dac-447b-9204-e7dc6f4f5449")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "LiteOn"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "feb3aa9d-0773-4f0c-a46b-dca24d16645e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MountingTypes" "SMT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0576619b-c8fc-4f0b-9086-7c3c7aa2b2df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package_LED" "led:LED_0603_1608Metric"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d6db2be-8ce3-4a21-8081-0f65a46407ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" "https://parts.b3rl1n.com/web/part/79/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24bc10d9-4591-499d-bc8c-ea24d9fae586")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Symbol_LED" "led:LED_x1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71eca004-6ef8-4eae-a58e-33c9e0bad088")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMax" "85 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ac33e63-8b43-4168-af8e-dfb9216e3c4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TemperatureMin" "-55 °C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53581899-3cb6-4b6f-a857-a5f66443ddb0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ValueStandard" "LTST-C191KRKT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ab3672b-d823-42b2-875f-365739f781ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "VoltageForward" "2 V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f957662c-e2d0-450a-99f4-f164526f5a55")
 			(effects
 				(font
 					(size 1 1)
@@ -22745,6 +25555,12 @@
 		(path "/b951030f-7b6a-4876-a844-ecd3d8f19f46")
 		(sheetname "/")
 		(sheetfile "ThreeMan_HW.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A" "C")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23676,7 +26492,7 @@
 		)
 	)
 	(gr_text "Die"
-		(at 130 66.8 0)
+		(at 130 65.5 0)
 		(layer "Dwgs.User")
 		(uuid "dd56ceaf-8df2-4b8e-8d51-4735f750a366")
 		(effects
@@ -23687,7 +26503,7 @@
 		)
 	)
 	(gr_text "Face"
-		(at 130 72 0)
+		(at 130 73.5 0)
 		(layer "Dwgs.User")
 		(uuid "0c8bc790-cff7-4e7b-8694-dbfab91731e6")
 		(effects
@@ -23698,7 +26514,7 @@
 		)
 	)
 	(gr_text "Die"
-		(at 130 86.8 0)
+		(at 130 85.5 0)
 		(layer "Dwgs.User")
 		(uuid "cfcb76a6-ccb3-470d-8c58-12fecc0d8d0f")
 		(effects
@@ -23709,7 +26525,7 @@
 		)
 	)
 	(gr_text "Face"
-		(at 130 92 0)
+		(at 130 93.5 0)
 		(layer "Dwgs.User")
 		(uuid "430b5ff7-a537-43e6-8204-8985445e7a47")
 		(effects
@@ -23848,7 +26664,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "Cmts.User")
+		(layer "Dwgs.User")
 		(uuid "149bd654-4b79-4232-81e5-3a28d7fe3af1")
 		(pts
 			(xy 141 64) (xy 141 96)
@@ -23873,7 +26689,7 @@
 		)
 		(gr_text "32.0 mm"
 			(at 146.35 80 90)
-			(layer "Cmts.User")
+			(layer "Dwgs.User")
 			(uuid "149bd654-4b79-4232-81e5-3a28d7fe3af1")
 			(effects
 				(font
@@ -23885,7 +26701,118 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "Cmts.User")
+		(layer "Dwgs.User")
+		(uuid "3918889e-91df-4f10-b17b-949302018613")
+		(pts
+			(xy 69.75 72.75) (xy 65 100)
+		)
+		(height -14.75)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 1)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "27.2 mm"
+			(at 53.85 86.375 90)
+			(layer "Dwgs.User")
+			(uuid "3918889e-91df-4f10-b17b-949302018613")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "48fa39b7-6bdb-41bd-8f81-3670706f8bdf")
+		(pts
+			(xy 65 72.75) (xy 69.75 72.75)
+		)
+		(height -2.75)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 2)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 2)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "4.75 mm"
+			(at 61.25 70 0)
+			(layer "Dwgs.User")
+			(uuid "48fa39b7-6bdb-41bd-8f81-3670706f8bdf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "4dc8ac56-b14e-400a-b8cd-e4ed241ab87c")
+		(pts
+			(xy 65 100) (xy 92.75 80)
+		)
+		(height 5)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 1)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "27.8 mm"
+			(at 78.875 103.85 0)
+			(layer "Dwgs.User")
+			(uuid "4dc8ac56-b14e-400a-b8cd-e4ed241ab87c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
 		(uuid "54dc2ff7-d8a2-4ebc-88be-da256eff1c0a")
 		(pts
 			(xy 69 96) (xy 65 96)
@@ -23909,8 +26836,8 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "4.0 mm"
-			(at 67 104 0)
-			(layer "Cmts.User")
+			(at 72.5 102.5 0)
+			(layer "Dwgs.User")
 			(uuid "54dc2ff7-d8a2-4ebc-88be-da256eff1c0a")
 			(effects
 				(font
@@ -23922,7 +26849,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "Cmts.User")
+		(layer "Dwgs.User")
 		(uuid "5598ef38-70f0-4118-8d58-6867229222d7")
 		(pts
 			(xy 141 64) (xy 69 64)
@@ -23947,7 +26874,7 @@
 		)
 		(gr_text "72.0 mm"
 			(at 105 56.35 0)
-			(layer "Cmts.User")
+			(layer "Dwgs.User")
 			(uuid "5598ef38-70f0-4118-8d58-6867229222d7")
 			(effects
 				(font
@@ -23959,7 +26886,229 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "Cmts.User")
+		(layer "Dwgs.User")
+		(uuid "5823e31d-8902-4157-a569-4941f5b351e3")
+		(pts
+			(xy 135.5 64) (xy 135.5 75)
+		)
+		(height 2)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 1)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "11.0 mm"
+			(at 136.35 69.5 90)
+			(layer "Dwgs.User")
+			(uuid "5823e31d-8902-4157-a569-4941f5b351e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "6c0db7f9-a018-4e8b-bb6b-a751f8781783")
+		(pts
+			(xy 124.5 64) (xy 135.5 64)
+		)
+		(height -1.5)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 1)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "11.0 mm"
+			(at 130 61.35 0)
+			(layer "Dwgs.User")
+			(uuid "6c0db7f9-a018-4e8b-bb6b-a751f8781783")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "711c8dfe-6bbc-46da-99c2-fe2ac5de938d")
+		(pts
+			(xy 130 69.5) (xy 65 70)
+		)
+		(height -2)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 1)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "65.0 mm"
+			(at 97.5 66.35 0)
+			(layer "Dwgs.User")
+			(uuid "711c8dfe-6bbc-46da-99c2-fe2ac5de938d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "7dd7c374-c6b4-402e-9ea4-675b84927093")
+		(pts
+			(xy 65 100) (xy 92.75 80)
+		)
+		(height -7.5)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 1)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "20.0 mm"
+			(at 56.35 90 90)
+			(layer "Dwgs.User")
+			(uuid "7dd7c374-c6b4-402e-9ea4-675b84927093")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "82fc2e14-e437-476d-b15f-ba4e71eea943")
+		(pts
+			(xy 68.5 85.25) (xy 65 100)
+		)
+		(height -8.5)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 1)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "14.8 mm"
+			(at 58.85 92.625 90)
+			(layer "Dwgs.User")
+			(uuid "82fc2e14-e437-476d-b15f-ba4e71eea943")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "838f9bd7-7361-4bf9-b9bb-58b4aa34fe14")
+		(pts
+			(xy 65 100) (xy 101.5 97.5)
+		)
+		(height 7.5)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 1)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "36.5 mm"
+			(at 83.25 106.35 0)
+			(layer "Dwgs.User")
+			(uuid "838f9bd7-7361-4bf9-b9bb-58b4aa34fe14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
 		(uuid "9e6a565c-5b91-4df5-a907-15a8a9381fda")
 		(pts
 			(xy 65 64) (xy 145 64)
@@ -23984,7 +27133,7 @@
 		)
 		(gr_text "80.0 mm"
 			(at 105 53.85 0)
-			(layer "Cmts.User")
+			(layer "Dwgs.User")
 			(uuid "9e6a565c-5b91-4df5-a907-15a8a9381fda")
 			(effects
 				(font
@@ -23996,7 +27145,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "Cmts.User")
+		(layer "Dwgs.User")
 		(uuid "adae1fff-71d7-41c7-9e97-ad96cd7888a1")
 		(pts
 			(xy 69 96) (xy 69 100)
@@ -24020,8 +27169,8 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "4.0 mm"
-			(at 60.75 98 90)
-			(layer "Cmts.User")
+			(at 62.5 92.5 90)
+			(layer "Dwgs.User")
 			(uuid "adae1fff-71d7-41c7-9e97-ad96cd7888a1")
 			(effects
 				(font
@@ -24033,7 +27182,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "Cmts.User")
+		(layer "Dwgs.User")
 		(uuid "aecf1131-f7c8-4e90-bfe0-1197d9b3967d")
 		(pts
 			(xy 141 100) (xy 141 60)
@@ -24058,7 +27207,7 @@
 		)
 		(gr_text "40.0 mm"
 			(at 148.85 80 90)
-			(layer "Cmts.User")
+			(layer "Dwgs.User")
 			(uuid "aecf1131-f7c8-4e90-bfe0-1197d9b3967d")
 			(effects
 				(font
@@ -24070,7 +27219,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "Cmts.User")
+		(layer "Dwgs.User")
 		(uuid "af97a353-9408-449c-bbb9-7a188e97be26")
 		(pts
 			(xy 142.6 96) (xy 139.4 96)
@@ -24095,7 +27244,7 @@
 		)
 		(gr_text "3.2 mm"
 			(at 141 104 0)
-			(layer "Cmts.User")
+			(layer "Dwgs.User")
 			(uuid "af97a353-9408-449c-bbb9-7a188e97be26")
 			(effects
 				(font
@@ -24107,7 +27256,83 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "Cmts.User")
+		(layer "Dwgs.User")
+		(uuid "eb398da2-9bcf-4968-bf83-c363d1d62fc3")
+		(pts
+			(xy 130 89.5) (xy 130 100)
+		)
+		(height -7.5)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "10.5 mm"
+			(at 121.35 94.75 90)
+			(layer "Dwgs.User")
+			(uuid "eb398da2-9bcf-4968-bf83-c363d1d62fc3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "f147b3bd-bbe4-4c78-8ccc-570257c09bfa")
+		(pts
+			(xy 130 69.5) (xy 130 100)
+		)
+		(height -10)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "30.5 mm"
+			(at 118.85 84.75 90)
+			(layer "Dwgs.User")
+			(uuid "f147b3bd-bbe4-4c78-8ccc-570257c09bfa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
 		(uuid "f66eb7e0-ed62-48a2-b82e-87f59bc64db3")
 		(pts
 			(xy 137.5 96) (xy 144.5 96)
@@ -24132,7 +27357,7 @@
 		)
 		(gr_text "7.0 mm"
 			(at 141 108 0)
-			(layer "Cmts.User")
+			(layer "Dwgs.User")
 			(uuid "f66eb7e0-ed62-48a2-b82e-87f59bc64db3")
 			(effects
 				(font

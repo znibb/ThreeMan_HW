@@ -124,6 +124,18 @@
   "project": {
     "files": [
       {
+        "name": "ThreeMan_HW.kicad_pcb",
+        "open": true,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 2251,
+          "pos_y": 0,
+          "size_x": 1496,
+          "size_y": 769
+        }
+      },
+      {
         "name": "ThreeMan_HW.kicad_sch",
         "open": true,
         "window": {

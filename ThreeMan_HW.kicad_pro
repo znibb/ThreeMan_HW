@@ -76,7 +76,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "nonmirrored_text_on_back_layer|12500000|15000000|00ba04fa-421a-4d21-98ab-0f7cc04779ca|00000000-0000-0000-0000-000000000000",
+          "Text meant for PDF output"
+        ],
+        [
+          "nonmirrored_text_on_back_layer|12500000|15000000|69072c1d-414e-45e0-8d9c-4127a56fa6ae|00000000-0000-0000-0000-000000000000",
+          "Text meant for PDF output"
+        ],
+        [
+          "nonmirrored_text_on_back_layer|12500000|15000000|6d3f0a09-4662-48b7-ae02-24b0acfdc6f8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "nonmirrored_text_on_back_layer|12500000|15000000|98be4dbd-0bd2-45b9-abb9-011907d1a62a|00000000-0000-0000-0000-000000000000",
+          "Text meant for PDF output"
+        ]
+      ],
       "meta": {
         "version": 2
       },
